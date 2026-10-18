@@ -29,7 +29,7 @@
     ],
     "keywords": ["\\b(ai|llm|agents?|rag|gpt|claude|gemini|copilot|mcp)\\b"],
     "maxItems": 10,
-    "hotThreshold": 500,
+    "hotThreshold": 1500,
     "newWithinDays": 7
   },
   "zenn": {

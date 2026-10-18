@@ -92,3 +92,21 @@ test("mapLimit preserves order and never exceeds the limit", async () => {
   expect(result).toEqual([50, 10, 40, 20, 30]);
   expect(peak).toBe(2);
 });
+
+test("fetchWithRetry caps a huge retry-after at 60 seconds", async () => {
+  const sleeps: number[] = [];
+  const http = stubHttp(
+    [
+      new Response("", { status: 403, headers: { "retry-after": "600" } }),
+      new Response("ok"),
+    ],
+    sleeps,
+  );
+  await fetchWithRetry(
+    http,
+    "u",
+    {},
+    { retries: 1, retryOn: (r) => r.status === 403 },
+  );
+  expect(sleeps).toEqual([60_000]);
+});

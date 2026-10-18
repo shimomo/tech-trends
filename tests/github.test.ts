@@ -178,3 +178,16 @@ test("sends the bearer token to the api", async () => {
   await collectGithub(cfg, http, "secret");
   expect(auth).toBe("Bearer secret");
 });
+
+test("a list that fails once is retried after a pause and succeeds", async () => {
+  const http = stubHttp({
+    "https://github.com/trending/python?since=daily": (_url, n) =>
+      n === 1
+        ? new Response("<html></html>", { status: 200 })
+        : new Response(html, { status: 200 }),
+  });
+  const { errors } = await collectGithub(cfg, http, "token");
+  expect(errors).toEqual([]);
+  expect(http.calls["https://github.com/trending/python?since=daily"]).toBe(2);
+  expect(http.sleeps).toContain(5000);
+});

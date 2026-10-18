@@ -59,7 +59,7 @@ GitHub Trending のページと Zenn の JSON API はどちらも**非公式**�
 | `github.languages` | この言語のリポジトリは無条件に採用 |
 | `github.topics` | このトピックを持つリポジトリを採用 |
 | `github.keywords` | 名前か説明文に当たる正規表現（大文字小文字無視）で採用 |
-| `github.maxItems` / `hotThreshold` / `newWithinDays` | 表示件数、🔥 のスター増加数、NEW とみなす日数 |
+| `github.maxItems` / `hotThreshold` / `newWithinDays` | 表示件数、🔥 のスター増加数、NEW とみなす日数。全言語リストの上位は日に 500〜3000 スター伸びるので、🔥 が多すぎる／少なすぎると感じたらここを動かす |
 | `zenn.topics` | 読む Zenn のトピック |
 | `zenn.pagesPerTopic` | トピックごとに読むページ数（1 ページ 48 件） |
 | `zenn.windowDays` | 公開からこの日数以内の記事だけを候補にする |

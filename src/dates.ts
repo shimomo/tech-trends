@@ -20,9 +20,11 @@ function dayNumber(date: string): number {
   );
 }
 
-/** fromIso の JST 暦日から toDate までの日数。同日 0、未来は負 */
+/** fromIso の JST 暦日から toDate までの日数。同日 0、未来は負。fromIso が解釈できなければ NaN */
 export function daysBetween(fromIso: string, toDate: string): number {
-  return dayNumber(toDate) - dayNumber(jstDate(new Date(fromIso)));
+  const from = new Date(fromIso);
+  if (Number.isNaN(from.getTime())) return Number.NaN;
+  return dayNumber(toDate) - dayNumber(jstDate(from));
 }
 
 /** 0 <= daysBetween <= days */

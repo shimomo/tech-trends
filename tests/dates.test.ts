@@ -17,3 +17,9 @@ test("withinDays is inclusive of the boundary day", () => {
   expect(withinDays("2026-10-11T23:59:59+09:00", "2026-10-19", 7)).toBe(false);
   expect(withinDays("2026-10-20T00:00:00+09:00", "2026-10-19", 7)).toBe(false);
 });
+
+test("an unparseable date is never within the window and does not throw", () => {
+  expect(Number.isNaN(daysBetween("garbage", "2026-10-19"))).toBe(true);
+  expect(withinDays("garbage", "2026-10-19", 7)).toBe(false);
+  expect(withinDays("", "2026-10-19", 7)).toBe(false);
+});

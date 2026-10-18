@@ -24,6 +24,7 @@ const TRENDING_HEADERS = {
 };
 
 const ENRICH_CONCURRENCY = 5;
+const RETRY_PAUSE_MS = 5000;
 
 function trendingUrl(language: string): string {
   return language
@@ -96,6 +97,8 @@ async function fetchListWithRetry(
   try {
     return await fetchTrendingList(language, http);
   } catch {
+    // Trending は一時的に 0 行のページを返すことがあるので、少し待ってからやり直す
+    await http.sleep(RETRY_PAUSE_MS);
     return fetchTrendingList(language, http);
   }
 }

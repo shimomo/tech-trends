@@ -30,6 +30,7 @@ interface ApiPage {
 }
 
 const PAGE_SIZE = 48;
+const RETRY_PAUSE_MS = 5000;
 
 function topicUrl(topic: string, page: number): string {
   return `https://zenn.dev/api/articles?topicname=${encodeURIComponent(topic)}&order=daily&count=${PAGE_SIZE}&page=${page}`;
@@ -79,6 +80,7 @@ async function fetchTopicWithRetry(
   try {
     return await fetchZennTopic(topic, pages, http);
   } catch {
+    await http.sleep(RETRY_PAUSE_MS);
     return fetchZennTopic(topic, pages, http);
   }
 }

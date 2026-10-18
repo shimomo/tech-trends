@@ -15,11 +15,15 @@ export interface RetryOptions {
   retryOn: (res: Response) => boolean;
 }
 
+const MAX_RETRY_AFTER_MS = 60_000;
+
 function retryDelayMs(res: Response | undefined, attempt: number): number {
   const header = res?.headers.get("retry-after");
   const seconds =
     header === null || header === undefined ? Number.NaN : Number(header);
-  if (Number.isFinite(seconds) && seconds >= 0) return seconds * 1000;
+  if (Number.isFinite(seconds) && seconds >= 0) {
+    return Math.min(seconds * 1000, MAX_RETRY_AFTER_MS);
+  }
   return 2 ** attempt * 1000;
 }
 

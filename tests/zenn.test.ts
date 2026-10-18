@@ -118,3 +118,25 @@ test("topic names are url-encoded", async () => {
   await collectZenn({ ...cfg, topics: ["生成ai"] }, http, "2026-10-19");
   expect(http.urls[0]).toContain(`topicname=${encodeURIComponent("生成ai")}`);
 });
+
+test("a topic that fails once is retried after a pause", async () => {
+  const sleeps: number[] = [];
+  let first = true;
+  const http = stubHttp(() => {
+    if (first) {
+      first = false;
+      return new Response("", { status: 503 });
+    }
+    return new Response(fixture);
+  });
+  http.sleep = async (ms) => {
+    sleeps.push(ms);
+  };
+  const { errors } = await collectZenn(
+    { ...cfg, topics: ["llm"] },
+    http,
+    "2026-10-19",
+  );
+  expect(errors).toEqual([]);
+  expect(sleeps).toEqual([5000]);
+});
