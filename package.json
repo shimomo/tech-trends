@@ -1,0 +1,33 @@
+{
+  "name": "tech-trends",
+  "version": "0.1.0",
+  "description": "Daily Web/AI tech trends from GitHub Trending and Zenn",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "collect": "tsx src/cli.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "format": "biome format --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-html-parser": "^9.0.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.15",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}
