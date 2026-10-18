@@ -1,0 +1,264 @@
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --text: #1f2328;
+  --muted: #656d76;
+  --border: #d0d7de;
+  --link: #0969da;
+  --hot: #d9480f;
+  --hot-bg: #fff4ec;
+  --new: #1a7f37;
+  --new-bg: #dafbe1;
+  --gh: #57606a;
+  --zn: #3ea8ff;
+  --tag-bg: #eaeef2;
+  --warning-bg: #fff1e5;
+  --warning-border: #f0883e;
+  --notice-bg: #ddf4ff;
+  --notice-border: #54aeff;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --card: #161b22;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --link: #58a6ff;
+    --hot: #ff8c4b;
+    --hot-bg: #2a1a10;
+    --new: #3fb950;
+    --new-bg: #12361f;
+    --gh: #8b949e;
+    --zn: #58b4ff;
+    --tag-bg: #21262d;
+    --warning-bg: #3a2210;
+    --warning-border: #d18616;
+    --notice-bg: #0c2d6b;
+    --notice-border: #1f6feb;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px 24px 32px;
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans",
+    "Noto Sans JP", Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.header-main,
+.header-sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-size: 18px;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav button {
+  font: inherit;
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.nav button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 10em;
+  text-align: center;
+}
+
+.header-sub {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.notices:empty {
+  display: none;
+}
+
+.notice,
+.warning {
+  margin: 0 0 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--notice-border);
+  background: var(--notice-bg);
+  font-size: 13px;
+}
+
+.warning {
+  border-color: var(--warning-border);
+  background: var(--warning-bg);
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card);
+  min-height: 96px;
+}
+
+.card.hot {
+  border-color: var(--hot);
+  box-shadow: inset 0 0 0 1px var(--hot);
+  background: var(--hot-bg);
+}
+
+.card .title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.card .title a {
+  color: inherit;
+}
+
+.card .sub {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card .meta {
+  margin: auto 0 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.src {
+  font-size: 11px;
+  padding: 0 7px;
+  border-radius: 10px;
+  border: 1px solid currentColor;
+}
+
+.src.gh {
+  color: var(--gh);
+}
+
+.src.zn {
+  color: var(--zn);
+}
+
+.tag {
+  font-size: 11px;
+  padding: 0 6px;
+  border-radius: 4px;
+  background: var(--tag-bg);
+}
+
+.count {
+  color: var(--text);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.delta {
+  color: var(--hot);
+}
+
+.new {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--new);
+  background: var(--new-bg);
+  padding: 0 6px;
+  border-radius: 4px;
+}
+
+.hot-mark {
+  color: var(--hot);
+}
+
+.empty {
+  color: var(--muted);
+  padding: 24px 0;
+}
+
+.footer {
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 12px 16px 24px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
