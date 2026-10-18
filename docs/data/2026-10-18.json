@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "generatedAt": "2026-10-18T12:58:03.136Z",
+  "generatedAt": "2026-10-18T12:58:57.769Z",
   "items": [
     {
       "id": "github:MadsLorentzen/ai-job-search",
@@ -22,7 +22,7 @@
         "latex",
         "resume"
       ],
-      "total": 51541,
+      "total": 51544,
       "delta": 2213,
       "hot": true,
       "isNew": false,
@@ -120,7 +120,7 @@
       "url": "https://github.com/anomalyco/opencode",
       "language": "TypeScript",
       "topics": [],
-      "total": 215977,
+      "total": 215980,
       "delta": 1417,
       "hot": false,
       "isNew": false,
@@ -206,7 +206,7 @@
         "worktrees",
         "yc-backed"
       ],
-      "total": 95988,
+      "total": 95989,
       "delta": 1146,
       "hot": false,
       "isNew": false,
@@ -247,7 +247,7 @@
         "mcp",
         "productivity"
       ],
-      "total": 282969,
+      "total": 282970,
       "delta": 1073,
       "hot": false,
       "isNew": false,
@@ -288,7 +288,7 @@
         "prompt-engineering",
         "yagni"
       ],
-      "total": 166637,
+      "total": 166638,
       "delta": 840,
       "hot": false,
       "isNew": false,
