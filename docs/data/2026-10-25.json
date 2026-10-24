@@ -1,0 +1,359 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-24T22:59:44.755Z",
+  "items": [
+    {
+      "id": "github:cloudflare/security-audit-skill",
+      "source": "github",
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "topics": [],
+      "total": 44428,
+      "delta": 2271,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-06-18T14:08:44Z",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "id": "github:NVIDIA/OpenShell",
+      "source": "github",
+      "title": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "language": "Rust",
+      "topics": [],
+      "total": 19450,
+      "delta": 893,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-02-24T22:52:22Z",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents."
+    },
+    {
+      "id": "zenn:673704",
+      "source": "zenn",
+      "title": "AI が実装してくれる時代こそ、自分の手で実装しよう",
+      "url": "https://zenn.dev/loglass/articles/24b2a4776ce8d4",
+      "author": "Firas",
+      "emoji": "🛠️",
+      "topics": [
+        "claudecode",
+        "mcp"
+      ],
+      "total": 14,
+      "delta": 11,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-23T10:28:43.339+09:00"
+    },
+    {
+      "id": "github:heygen-com/hyperframes",
+      "source": "github",
+      "title": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "animation",
+        "claude-code",
+        "ffmpeg",
+        "framework",
+        "gsap",
+        "html",
+        "html-to-video",
+        "mcp",
+        "motion-graphics",
+        "puppeteer",
+        "rendering",
+        "typescript",
+        "video-editor"
+      ],
+      "total": 71462,
+      "delta": 777,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-03-10T01:51:06Z",
+      "description": "Write HTML. Render video. Built for agents."
+    },
+    {
+      "id": "zenn:672705",
+      "source": "zenn",
+      "title": "仕組みを理解する動画を、Claude Codeに作らせると便利すぎる",
+      "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
+      "author": "musoukun",
+      "emoji": "🎞️",
+      "topics": [
+        "claude",
+        "claudecode"
+      ],
+      "total": 166,
+      "delta": 10,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-21T11:14:44.848+09:00"
+    },
+    {
+      "id": "github:DietrichGebert/ponytail",
+      "source": "github",
+      "title": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "total": 175501,
+      "delta": 776,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-06-12T00:52:37Z",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "id": "zenn:673818",
+      "source": "zenn",
+      "title": "Next.js で TypeScript7.1 の Content Mappers を使い、*.graphql ファイルを直接使用する",
+      "url": "https://zenn.dev/sora_kumo/articles/typescript7-content-mappers",
+      "author": "空雲",
+      "emoji": "⚡",
+      "topics": [
+        "react",
+        "nextjs",
+        "typescript"
+      ],
+      "total": 10,
+      "delta": 10,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-22T20:48:46.552+09:00"
+    },
+    {
+      "id": "github:SnailSploit/Claude-Red",
+      "source": "github",
+      "title": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "language": "Python",
+      "topics": [
+        "claude-ai",
+        "claude-pt",
+        "claude-skills",
+        "redteam",
+        "redteam-tools",
+        "skills"
+      ],
+      "total": 8835,
+      "delta": 770,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-03-04T05:52:35Z",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
+    },
+    {
+      "id": "zenn:672364",
+      "source": "zenn",
+      "title": "コードレビューをなくして見えたもの",
+      "url": "https://zenn.dev/henteko/articles/b76b15922cdf72",
+      "author": "henteko",
+      "emoji": "🔍",
+      "topics": [
+        "ai"
+      ],
+      "total": 16,
+      "delta": 8,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-21T10:39:50.090+09:00"
+    },
+    {
+      "id": "github:pbakaus/impeccable",
+      "source": "github",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "language": "Rust",
+      "topics": [],
+      "total": 86350,
+      "delta": 733,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-11-16T01:52:04Z",
+      "description": "The design language that makes your AI harness better at design."
+    },
+    {
+      "id": "zenn:672110",
+      "source": "zenn",
+      "title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
+      "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
+      "author": "Isamu",
+      "emoji": "🐢",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 73,
+      "delta": 5,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-20T18:15:46.521+09:00"
+    },
+    {
+      "id": "github:tashfeenahmed/freellmapi",
+      "source": "github",
+      "title": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "language": "TypeScript",
+      "topics": [],
+      "total": 40927,
+      "delta": 723,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-04-21T13:38:59Z",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
+    },
+    {
+      "id": "zenn:664481",
+      "source": "zenn",
+      "title": "Oxlint + Oxfmt で規約をコード化するモノレポ運用",
+      "url": "https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006",
+      "author": "Toshiki Okazaki",
+      "emoji": "⚓",
+      "topics": [
+        "typescript",
+        "tailwindcss"
+      ],
+      "total": 52,
+      "delta": 4,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-20T11:00:05.268+09:00"
+    },
+    {
+      "id": "github:Renhuai123/ziwei-doushu",
+      "source": "github",
+      "title": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "language": "TypeScript",
+      "topics": [
+        "bazi",
+        "chinese-astrology",
+        "divination",
+        "fortune-telling",
+        "nextjs",
+        "open-source",
+        "purple-star-astrology",
+        "typescript",
+        "zi-wei-dou-shu",
+        "ziwei-doushu"
+      ],
+      "total": 7253,
+      "delta": 635,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-05-01T05:09:59Z",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+    },
+    {
+      "id": "zenn:674109",
+      "source": "zenn",
+      "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
+      "url": "https://zenn.dev/actbe_tech/articles/8b4a9991d5365d",
+      "author": "北野",
+      "emoji": "🎉",
+      "topics": [
+        "ai",
+        "claude"
+      ],
+      "total": 10,
+      "delta": 4,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-23T18:00:05.308+09:00"
+    },
+    {
+      "id": "github:anthropics/knowledge-work-plugins",
+      "source": "github",
+      "title": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "language": "Python",
+      "topics": [],
+      "total": 32608,
+      "delta": 598,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-23T20:11:54Z",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+    },
+    {
+      "id": "zenn:668241",
+      "source": "zenn",
+      "title": "Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】",
+      "url": "https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49",
+      "author": "iakito",
+      "emoji": "⏰",
+      "topics": [
+        "claudecode"
+      ],
+      "total": 48,
+      "delta": 2,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-20T08:00:05.834+09:00"
+    },
+    {
+      "id": "github:anthropics/sandbox-runtime",
+      "source": "github",
+      "title": "anthropics/sandbox-runtime",
+      "url": "https://github.com/anthropics/sandbox-runtime",
+      "language": "TypeScript",
+      "topics": [],
+      "total": 6455,
+      "delta": 592,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-10-20T02:52:10Z",
+      "description": "A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container."
+    },
+    {
+      "id": "zenn:671667",
+      "source": "zenn",
+      "title": "AI時代、配布するPythonコードをどう守るか: 難読化の実験と判断軸",
+      "url": "https://zenn.dev/pksha/articles/0f9c11d1daea2e",
+      "author": "山本隼輔",
+      "emoji": "🔐",
+      "topics": [
+        "python"
+      ],
+      "total": 40,
+      "delta": 2,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-19T12:19:32.580+09:00"
+    },
+    {
+      "id": "zenn:672659",
+      "source": "zenn",
+      "title": "Next.js の脆弱性に Dependabot が反応しなかったので、GitHub Advisory Database までの流れを追った",
+      "url": "https://zenn.dev/rakko_inc/articles/dependabot-cve-to-pr-flow",
+      "author": "katsu",
+      "emoji": "📝",
+      "topics": [
+        "nextjs"
+      ],
+      "total": 22,
+      "delta": 2,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-21T13:55:56.382+09:00"
+    }
+  ],
+  "errors": []
+}
