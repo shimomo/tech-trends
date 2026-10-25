@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-25T23:05:40.908Z",
+  "items": [
+    {
+      "id": "github:cloudflare/security-audit-skill",
+      "source": "github",
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "topics": [],
+      "total": 46787,
+      "delta": 2874,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-06-18T14:08:44Z",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "id": "github:debpalash/VoiceStudio",
+      "source": "github",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "total": 86701,
+      "delta": 1588,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-04-09T21:40:26Z",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+    },
+    {
+      "id": "github:Nutlope/hallmark",
+      "source": "github",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "language": "CSS",
+      "topics": [],
+      "total": 33659,
+      "delta": 1359,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-04-27T20:47:10Z",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+    },
+    {
+      "id": "zenn:673704",
+      "source": "zenn",
+      "title": "AI が実装してくれる時代こそ、自分の手で実装しよう",
+      "url": "https://zenn.dev/loglass/articles/24b2a4776ce8d4",
+      "author": "Firas",
+      "emoji": "🛠️",
+      "topics": [
+        "claudecode",
+        "mcp"
+      ],
+      "total": 30,
+      "delta": 16,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-23T10:28:43.339+09:00"
+    },
+    {
+      "id": "github:pbakaus/impeccable",
+      "source": "github",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "language": "Rust",
+      "topics": [],
+      "total": 87621,
+      "delta": 1113,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-11-16T01:52:04Z",
+      "description": "The design language that makes your AI harness better at design."
+    },
+    {
+      "id": "zenn:672705",
+      "source": "zenn",
+      "title": "仕組みを理解する動画を、Claude Codeに作らせると便利すぎる",
+      "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
+      "author": "musoukun",
+      "emoji": "🎞️",
+      "topics": [
+        "claude",
+        "claudecode"
+      ],
+      "total": 180,
+      "delta": 14,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-21T11:14:44.848+09:00"
+    },
+    {
+      "id": "github:google-gemini/gemini-cli",
+      "source": "github",
+      "title": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini",
+        "gemini-api",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "total": 108380,
+      "delta": 825,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-04-17T17:04:31Z",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal."
+    },
+    {
+      "id": "zenn:672364",
+      "source": "zenn",
+      "title": "コードレビューをなくして見えたもの",
+      "url": "https://zenn.dev/henteko/articles/b76b15922cdf72",
+      "author": "henteko",
+      "emoji": "🔍",
+      "topics": [
+        "ai"
+      ],
+      "total": 25,
+      "delta": 9,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-21T10:39:50.090+09:00"
+    },
+    {
+      "id": "github:affaan-m/ECC",
+      "source": "github",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "total": 288816,
+      "delta": 819,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-18T00:51:51Z",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "id": "zenn:672110",
+      "source": "zenn",
+      "title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
+      "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
+      "author": "Isamu",
+      "emoji": "🐢",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 81,
+      "delta": 8,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-20T18:15:46.521+09:00"
+    },
+    {
+      "id": "github:makecindy/cindy",
+      "source": "github",
+      "title": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "ai-assistant",
+        "android",
+        "claude-code",
+        "codex",
+        "electron",
+        "ios",
+        "llm",
+        "macos",
+        "react-native",
+        "typescript",
+        "windows"
+      ],
+      "total": 4805,
+      "delta": 677,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-07-22T17:49:34Z",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+    },
+    {
+      "id": "zenn:674870",
+      "source": "zenn",
+      "title": "VueFes Japan 2026に参加してきた",
+      "url": "https://zenn.dev/krz_tech/articles/vuefes_japan_2026",
+      "author": "くらず / kurazu",
+      "emoji": "⛅️",
+      "topics": [
+        "vue",
+        "web"
+      ],
+      "total": 15,
+      "delta": 8,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-25T00:10:47.053+09:00"
+    },
+    {
+      "id": "github:tashfeenahmed/freellmapi",
+      "source": "github",
+      "title": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "language": "TypeScript",
+      "topics": [],
+      "total": 41565,
+      "delta": 670,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-04-21T13:38:59Z",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
+    },
+    {
+      "id": "zenn:674109",
+      "source": "zenn",
+      "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
+      "url": "https://zenn.dev/actbe_tech/articles/8b4a9991d5365d",
+      "author": "北野",
+      "emoji": "🎉",
+      "topics": [
+        "ai",
+        "claude"
+      ],
+      "total": 17,
+      "delta": 7,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-23T18:00:05.308+09:00"
+    },
+    {
+      "id": "github:TauricResearch/TradingAgents",
+      "source": "github",
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "total": 114544,
+      "delta": 636,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2024-12-28T03:31:08Z",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "id": "zenn:664481",
+      "source": "zenn",
+      "title": "Oxlint + Oxfmt で規約をコード化するモノレポ運用",
+      "url": "https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006",
+      "author": "Toshiki Okazaki",
+      "emoji": "⚓",
+      "topics": [
+        "typescript",
+        "tailwindcss"
+      ],
+      "total": 57,
+      "delta": 5,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-20T11:00:05.268+09:00"
+    },
+    {
+      "id": "github:firecrawl/firecrawl",
+      "source": "github",
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search",
+        "crawler",
+        "data-extraction",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "scraper",
+        "scraping",
+        "web-crawler",
+        "web-data",
+        "web-data-extraction",
+        "web-scraper",
+        "web-scraping",
+        "web-search",
+        "webscraping"
+      ],
+      "total": 195316,
+      "delta": 383,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2024-04-15T21:02:29Z",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥"
+    },
+    {
+      "id": "zenn:668241",
+      "source": "zenn",
+      "title": "Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】",
+      "url": "https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49",
+      "author": "iakito",
+      "emoji": "⏰",
+      "topics": [
+        "claudecode"
+      ],
+      "total": 50,
+      "delta": 2,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-20T08:00:05.834+09:00"
+    },
+    {
+      "id": "zenn:671789",
+      "source": "zenn",
+      "title": "AI にリバースエンジニアリングさせる REA を触って、持ち帰ったのは「証拠付きで進める」考え方でした",
+      "url": "https://zenn.dev/flinters_blog/articles/3b377ce568d676",
+      "author": "Takashi Kawachi",
+      "emoji": "📝",
+      "topics": [
+        "claudecode",
+        "aiエージェント"
+      ],
+      "total": 14,
+      "delta": 2,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-20T12:00:05.299+09:00"
+    },
+    {
+      "id": "zenn:672036",
+      "source": "zenn",
+      "title": "Cloudflare + EmDash の自サイトを点検したら Server-Timing から内部情報が見えていた話",
+      "url": "https://zenn.dev/masaru21/articles/2100616bb5110d",
+      "author": "lonely_creator_m",
+      "emoji": "🎉",
+      "topics": [
+        "typescript",
+        "astro"
+      ],
+      "total": 24,
+      "delta": 1,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-19T23:42:30.233+09:00"
+    }
+  ],
+  "errors": []
+}
