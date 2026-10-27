@@ -1,0 +1,402 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T00:16:56.293Z",
+  "items": [
+    {
+      "id": "github:debpalash/VoiceStudio",
+      "source": "github",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "total": 89191,
+      "delta": 2297,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-04-09T21:40:26Z",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+    },
+    {
+      "id": "github:Nutlope/hallmark",
+      "source": "github",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "language": "CSS",
+      "topics": [],
+      "total": 36272,
+      "delta": 2244,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-04-27T20:47:10Z",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+    },
+    {
+      "id": "github:cloudflare/security-audit-skill",
+      "source": "github",
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "topics": [],
+      "total": 48542,
+      "delta": 1860,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-06-18T14:08:44Z",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "id": "github:pbakaus/impeccable",
+      "source": "github",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "language": "Rust",
+      "topics": [],
+      "total": 89176,
+      "delta": 1506,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2025-11-16T01:52:04Z",
+      "description": "The design language that makes your AI harness better at design."
+    },
+    {
+      "id": "zenn:675734",
+      "source": "zenn",
+      "title": "AI の謎な説明文を直すスキル",
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "author": "Kazuki Ota",
+      "emoji": "🐙",
+      "topics": [
+        "ai"
+      ],
+      "total": 57,
+      "delta": 57,
+      "hot": true,
+      "isNew": true,
+      "publishedAt": "2026-10-26T13:32:54.835+09:00"
+    },
+    {
+      "id": "github:AgriciDaniel/claude-seo",
+      "source": "github",
+      "title": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-seo",
+        "claude-code",
+        "claude-code-skill",
+        "marketing-automation",
+        "open-source",
+        "seo"
+      ],
+      "total": 22135,
+      "delta": 1457,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-02-07T08:17:38Z",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data."
+    },
+    {
+      "id": "zenn:675326",
+      "source": "zenn",
+      "title": "最近の E2E 戦略（2026 年 10 月現在）",
+      "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
+      "author": "Tatsunori Nakano",
+      "emoji": "🧙‍♂️",
+      "topics": [
+        "typescript",
+        "ai"
+      ],
+      "total": 29,
+      "delta": 29,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-26T10:18:03.294+09:00"
+    },
+    {
+      "id": "github:TauricResearch/TradingAgents",
+      "source": "github",
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "total": 116069,
+      "delta": 1395,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2024-12-28T03:31:08Z",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "id": "zenn:672705",
+      "source": "zenn",
+      "title": "仕組みを理解する動画を、Claude Codeに作らせると便利すぎる",
+      "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
+      "author": "musoukun",
+      "emoji": "🎞️",
+      "topics": [
+        "claude",
+        "claudecode"
+      ],
+      "total": 201,
+      "delta": 21,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-21T11:14:44.848+09:00"
+    },
+    {
+      "id": "github:makecindy/cindy",
+      "source": "github",
+      "title": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "ai-assistant",
+        "android",
+        "claude-code",
+        "codex",
+        "electron",
+        "ios",
+        "llm",
+        "macos",
+        "react-native",
+        "typescript",
+        "windows"
+      ],
+      "total": 6445,
+      "delta": 1296,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-07-22T17:49:34Z",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+    },
+    {
+      "id": "zenn:675476",
+      "source": "zenn",
+      "title": "Zod の契約で BE と UI のずれをテストし、振る舞いまで守る Schema-Driven UI",
+      "url": "https://zenn.dev/dress_code/articles/fe01d8baae2aa8",
+      "author": "ぷーじ",
+      "emoji": "📜",
+      "topics": [
+        "typescript",
+        "frontend"
+      ],
+      "total": 19,
+      "delta": 19,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-26T17:12:15.543+09:00"
+    },
+    {
+      "id": "github:JetBrains/thinkrail",
+      "source": "github",
+      "title": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-coding",
+        "ai-tools",
+        "pi-agent",
+        "pi-agent-extension",
+        "spec-driven",
+        "spec-driven-coding",
+        "spec-driven-development",
+        "vibe-coding",
+        "vibecoding"
+      ],
+      "total": 2878,
+      "delta": 1173,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-07-08T07:40:43Z",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need"
+    },
+    {
+      "id": "zenn:675282",
+      "source": "zenn",
+      "title": "私が5種類のコーディングエージェントを使い分ける理由",
+      "url": "https://zenn.dev/rimon/articles/45c1fd2f015af8",
+      "author": "ミモ  フォワードCTO・CPO",
+      "emoji": "🦑",
+      "topics": [
+        "claudecode"
+      ],
+      "total": 19,
+      "delta": 19,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-26T07:44:03.749+09:00"
+    },
+    {
+      "id": "github:affaan-m/ECC",
+      "source": "github",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "total": 289829,
+      "delta": 896,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-18T00:51:51Z",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "id": "zenn:672110",
+      "source": "zenn",
+      "title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
+      "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
+      "author": "Isamu",
+      "emoji": "🐢",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 99,
+      "delta": 18,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-20T18:15:46.521+09:00"
+    },
+    {
+      "id": "github:Panniantong/Agent-Reach",
+      "source": "github",
+      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "language": "Python",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "total": 103563,
+      "delta": 746,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-02-24T02:10:24Z",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    },
+    {
+      "id": "zenn:674353",
+      "source": "zenn",
+      "title": "AI時代のアーキテクチャ：実装を任せるために、詳細設計を自分のものにする",
+      "url": "https://zenn.dev/simplex/articles/f2b41d3367e9c7",
+      "author": "Simplex テックブログ運営",
+      "emoji": "🏗️",
+      "topics": [
+        "ai"
+      ],
+      "total": 17,
+      "delta": 17,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-26T16:02:56.223+09:00"
+    },
+    {
+      "id": "zenn:675809",
+      "source": "zenn",
+      "title": "生成AIはテストを「通す」ためにズルをするのか — 報酬ハッキングを再現し、対策まで検証してみた",
+      "url": "https://zenn.dev/sompojapan_dx/articles/4f190d7cef4615",
+      "author": "sishikawa40",
+      "emoji": "🤫",
+      "topics": [
+        "生成ai"
+      ],
+      "total": 14,
+      "delta": 14,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-26T17:06:48.791+09:00"
+    },
+    {
+      "id": "zenn:659116",
+      "source": "zenn",
+      "title": "スタックトレースを読むとヒープが約1,470 MB増えていた話",
+      "url": "https://zenn.dev/dress_code/articles/f2a51226c9ec6f",
+      "author": "かわうそ",
+      "emoji": "🔍",
+      "topics": [
+        "typescript",
+        "nodejs"
+      ],
+      "total": 13,
+      "delta": 13,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-26T09:00:13.522+09:00"
+    },
+    {
+      "id": "zenn:674109",
+      "source": "zenn",
+      "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
+      "url": "https://zenn.dev/actbe_tech/articles/8b4a9991d5365d",
+      "author": "北野",
+      "emoji": "🎉",
+      "topics": [
+        "ai",
+        "claude"
+      ],
+      "total": 29,
+      "delta": 12,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-23T18:00:05.308+09:00"
+    }
+  ],
+  "errors": []
+}
