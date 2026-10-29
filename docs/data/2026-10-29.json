@@ -1,0 +1,408 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T00:40:34.346Z",
+  "items": [
+    {
+      "id": "github:HKUDS/DeepTutor",
+      "source": "github",
+      "title": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "ai-tutor",
+        "clawbot",
+        "cli-tool",
+        "deepresearch",
+        "interactive-learning",
+        "learning",
+        "multi-agent-systems",
+        "rag"
+      ],
+      "total": 47963,
+      "delta": 2371,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2025-12-28T15:35:54Z",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
+    },
+    {
+      "id": "github:elayadesign/ai-design-skills",
+      "source": "github",
+      "title": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "language": null,
+      "topics": [],
+      "total": 11112,
+      "delta": 2139,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-07-29T06:43:16Z"
+    },
+    {
+      "id": "github:Nutlope/hallmark",
+      "source": "github",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "language": "CSS",
+      "topics": [],
+      "total": 40710,
+      "delta": 2110,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-04-27T20:47:10Z",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+    },
+    {
+      "id": "github:debpalash/VoiceStudio",
+      "source": "github",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "total": 92997,
+      "delta": 1793,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-04-09T21:40:26Z",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+    },
+    {
+      "id": "github:hmjz100/LinkSwift",
+      "source": "github",
+      "title": "hmjz100/LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "language": "JavaScript",
+      "topics": [
+        "123pan",
+        "aliyun-drive",
+        "aliyunpan",
+        "aria2",
+        "baidu",
+        "baidu-netdisk",
+        "baidunetdisk",
+        "baidupan",
+        "baiduyun",
+        "guangya-netdisk",
+        "motrix",
+        "quark-netdisk",
+        "tampermonkey",
+        "tampermonkey-script",
+        "tampermonkey-userscript",
+        "tianyi-netdisk",
+        "uc-netdisk",
+        "userscript",
+        "xunlei-netdisk",
+        "yidong-netdisk"
+      ],
+      "total": 34637,
+      "delta": 1616,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2022-08-10T11:59:44Z",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘"
+    },
+    {
+      "id": "zenn:676449",
+      "source": "zenn",
+      "title": "コードを読まずにマージするために必要なこと",
+      "url": "https://zenn.dev/nrs/articles/c777388530aa84",
+      "author": "nrs",
+      "emoji": "😎",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 118,
+      "delta": 72,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-10-27T20:00:05.122+09:00"
+    },
+    {
+      "id": "zenn:666054",
+      "source": "zenn",
+      "title": "Flutter やめました。電話アプリを Native にした理由",
+      "url": "https://zenn.dev/ivry/articles/d155267331a3ca",
+      "author": "tsutou",
+      "emoji": "🕊️",
+      "topics": [
+        "claude"
+      ],
+      "total": 63,
+      "delta": 63,
+      "hot": true,
+      "isNew": true,
+      "publishedAt": "2026-10-28T11:39:36.228+09:00"
+    },
+    {
+      "id": "zenn:675734",
+      "source": "zenn",
+      "title": "AI の謎な説明文を直すスキル",
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "author": "Kazuki Ota",
+      "emoji": "🐙",
+      "topics": [
+        "ai"
+      ],
+      "total": 181,
+      "delta": 61,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-10-26T13:32:54.835+09:00"
+    },
+    {
+      "id": "github:pbakaus/impeccable",
+      "source": "github",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
+      ],
+      "total": 92647,
+      "delta": 1472,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-11-16T01:52:04Z",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+    },
+    {
+      "id": "zenn:675326",
+      "source": "zenn",
+      "title": "最近の E2E 戦略（2026 年 10 月現在）",
+      "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
+      "author": "Tatsunori Nakano",
+      "emoji": "🧙‍♂️",
+      "topics": [
+        "typescript",
+        "ai"
+      ],
+      "total": 96,
+      "delta": 21,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-26T10:18:03.294+09:00"
+    },
+    {
+      "id": "github:YuJunZhiXue/dsh-purge",
+      "source": "github",
+      "title": "YuJunZhiXue/dsh-purge",
+      "url": "https://github.com/YuJunZhiXue/dsh-purge",
+      "language": "JavaScript",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "dsh-plugins",
+        "harness-jailbreak",
+        "jailbreak",
+        "llm-jailbreak"
+      ],
+      "total": 12165,
+      "delta": 1128,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-08-19T07:41:12Z",
+      "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分"
+    },
+    {
+      "id": "zenn:675865",
+      "source": "zenn",
+      "title": "「シンプルに」と「多機能に」は、両立できる──マリオに学ぶUX設計",
+      "url": "https://zenn.dev/upgradetech/articles/0882ef73e9c025",
+      "author": "k.s1",
+      "emoji": "🏠",
+      "topics": [
+        "生成ai"
+      ],
+      "total": 18,
+      "delta": 12,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-26T18:44:58.689+09:00"
+    },
+    {
+      "id": "github:obra/superpowers",
+      "source": "github",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "total": 307436,
+      "delta": 1095,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-10-09T19:45:18Z",
+      "description": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "zenn:676143",
+      "source": "zenn",
+      "title": "LLMに書いてもらうための小さな言語、Kirohaを作りました",
+      "url": "https://zenn.dev/nextbeat/articles/2026-10-kiroha-language",
+      "author": "kmizu",
+      "emoji": "🌿",
+      "topics": [
+        "llm",
+        "生成ai"
+      ],
+      "total": 11,
+      "delta": 11,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-28T16:42:12.052+09:00"
+    },
+    {
+      "id": "github:JetBrains/thinkrail",
+      "source": "github",
+      "title": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-coding",
+        "ai-tools",
+        "pi-agent",
+        "pi-agent-extension",
+        "spec-driven",
+        "spec-driven-coding",
+        "spec-driven-development",
+        "vibe-coding",
+        "vibecoding"
+      ],
+      "total": 5043,
+      "delta": 1068,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-07-08T07:40:43Z",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need"
+    },
+    {
+      "id": "zenn:675907",
+      "source": "zenn",
+      "title": "学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話",
+      "url": "https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm",
+      "author": "Atotti",
+      "emoji": "🎙️",
+      "topics": [
+        "llm"
+      ],
+      "total": 35,
+      "delta": 10,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-26T22:54:50.432+09:00"
+    },
+    {
+      "id": "github:nightly-labs/openbot",
+      "source": "github",
+      "title": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "bun",
+        "codex",
+        "electron",
+        "local-first",
+        "macos",
+        "solidjs",
+        "typescript"
+      ],
+      "total": 3248,
+      "delta": 1054,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-08-12T21:32:03Z",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration."
+    },
+    {
+      "id": "zenn:676295",
+      "source": "zenn",
+      "title": "@mizchi/mutator で vitest の mutation test をする",
+      "url": "https://zenn.dev/mizchi/articles/introduce-mutator",
+      "author": "mizchi",
+      "emoji": "🧬",
+      "topics": [
+        "typescript",
+        "javascript"
+      ],
+      "total": 23,
+      "delta": 10,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-27T12:56:41.792+09:00"
+    },
+    {
+      "id": "zenn:664693",
+      "source": "zenn",
+      "title": "なぜデザインシステムを「デザインハーネス」として作っているのか",
+      "url": "https://zenn.dev/xtm_blog/articles/design-system-as-design-harness",
+      "author": "mame",
+      "emoji": "🎨",
+      "topics": [
+        "ai"
+      ],
+      "total": 11,
+      "delta": 8,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-27T11:00:05.369+09:00"
+    },
+    {
+      "id": "zenn:676244",
+      "source": "zenn",
+      "title": ".md は危険な実行ファイルだ。AI時代のセキュリティ意識",
+      "url": "https://zenn.dev/knowledgesense/articles/4ff01df8f59a3e",
+      "author": "Atsushi Kadowaki",
+      "emoji": "☠️",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 17,
+      "delta": 7,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-27T17:59:04.679+09:00"
+    }
+  ],
+  "errors": []
+}
