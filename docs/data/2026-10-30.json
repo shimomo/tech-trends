@@ -1,0 +1,410 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T00:41:30.420Z",
+  "items": [
+    {
+      "id": "github:pbakaus/impeccable",
+      "source": "github",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
+      ],
+      "total": 95315,
+      "delta": 2870,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2025-11-16T01:52:04Z",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+    },
+    {
+      "id": "github:hmjz100/LinkSwift",
+      "source": "github",
+      "title": "hmjz100/LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "language": "JavaScript",
+      "topics": [
+        "123pan",
+        "aliyun-drive",
+        "aliyunpan",
+        "aria2",
+        "baidu",
+        "baidu-netdisk",
+        "baidunetdisk",
+        "baidupan",
+        "baiduyun",
+        "guangya-netdisk",
+        "motrix",
+        "quark-netdisk",
+        "tampermonkey",
+        "tampermonkey-script",
+        "tampermonkey-userscript",
+        "tianyi-netdisk",
+        "uc-netdisk",
+        "userscript",
+        "xunlei-netdisk",
+        "yidong-netdisk"
+      ],
+      "total": 36247,
+      "delta": 2058,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2022-08-10T11:59:44Z",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘"
+    },
+    {
+      "id": "github:HKUDS/DeepTutor",
+      "source": "github",
+      "title": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "ai-tutor",
+        "clawbot",
+        "cli-tool",
+        "deepresearch",
+        "interactive-learning",
+        "learning",
+        "multi-agent-systems",
+        "rag"
+      ],
+      "total": 50039,
+      "delta": 1930,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2025-12-28T15:35:54Z",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
+    },
+    {
+      "id": "zenn:675326",
+      "source": "zenn",
+      "title": "最近の E2E 戦略（2026 年 10 月現在）",
+      "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
+      "author": "Tatsunori Nakano",
+      "emoji": "🧙‍♂️",
+      "topics": [
+        "typescript",
+        "ai"
+      ],
+      "total": 204,
+      "delta": 108,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-10-26T10:18:03.294+09:00"
+    },
+    {
+      "id": "zenn:675734",
+      "source": "zenn",
+      "title": "AI の謎な説明文を直すスキル",
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "author": "Kazuki Ota",
+      "emoji": "🐙",
+      "topics": [
+        "ai"
+      ],
+      "total": 235,
+      "delta": 54,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-10-26T13:32:54.835+09:00"
+    },
+    {
+      "id": "github:vectorize-io/hindsight",
+      "source": "github",
+      "title": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai-memory",
+        "memory"
+      ],
+      "total": 56197,
+      "delta": 1454,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-10-30T11:49:48Z",
+      "description": "Hindsight: Agent Memory That Learns"
+    },
+    {
+      "id": "zenn:676449",
+      "source": "zenn",
+      "title": "コードを読まずにマージするために必要なこと",
+      "url": "https://zenn.dev/nrs/articles/c777388530aa84",
+      "author": "nrs",
+      "emoji": "😎",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 162,
+      "delta": 44,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-27T20:00:05.122+09:00"
+    },
+    {
+      "id": "github:milind-soni/OpenMausBot",
+      "source": "github",
+      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "total": 7471,
+      "delta": 1199,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-08-11T18:58:55Z",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use"
+    },
+    {
+      "id": "zenn:677540",
+      "source": "zenn",
+      "title": "人間がコードを読まずにPRをマージする技術 ─ それでも、品質は手放さない",
+      "url": "https://zenn.dev/karamage/articles/ac71f1c89c73ff",
+      "author": "karamage",
+      "emoji": "👁️",
+      "topics": [
+        "ai"
+      ],
+      "total": 20,
+      "delta": 20,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-29T17:26:16.870+09:00"
+    },
+    {
+      "id": "github:elayadesign/ai-design-skills",
+      "source": "github",
+      "title": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "language": null,
+      "topics": [],
+      "total": 12147,
+      "delta": 1187,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-07-29T06:43:16Z"
+    },
+    {
+      "id": "zenn:677408",
+      "source": "zenn",
+      "title": "元フロントエンドエンジニアがプロダクトエンジニアとして強制成長した1年",
+      "url": "https://zenn.dev/dress_code/articles/bbc5159fefbd2c",
+      "author": "もず",
+      "emoji": "🦾",
+      "topics": [
+        "frontend"
+      ],
+      "total": 18,
+      "delta": 18,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-29T19:30:05.226+09:00"
+    },
+    {
+      "id": "github:Leonxlnx/taste-skill",
+      "source": "github",
+      "title": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "cursor",
+        "design-system",
+        "frontend",
+        "landing-page",
+        "ui-design",
+        "web-design"
+      ],
+      "total": 105546,
+      "delta": 1131,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-02-19T21:44:05Z",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
+    },
+    {
+      "id": "zenn:677286",
+      "source": "zenn",
+      "title": "ChatGPTでアプリを作ったらインフラも運用担当もついてきた",
+      "url": "https://zenn.dev/gotalab/articles/chatgpt-app-operations",
+      "author": "Gota",
+      "emoji": "🏬",
+      "topics": [
+        "openai",
+        "chatgpt",
+        "mcp"
+      ],
+      "total": 16,
+      "delta": 16,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-29T07:32:01.657+09:00"
+    },
+    {
+      "id": "github:JetBrains/thinkrail",
+      "source": "github",
+      "title": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-coding",
+        "ai-tools",
+        "pi-agent",
+        "pi-agent-extension",
+        "spec-driven",
+        "spec-driven-coding",
+        "spec-driven-development",
+        "vibe-coding",
+        "vibecoding"
+      ],
+      "total": 6005,
+      "delta": 1117,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-07-08T07:40:43Z",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need"
+    },
+    {
+      "id": "zenn:666725",
+      "source": "zenn",
+      "title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？？",
+      "url": "https://zenn.dev/nttdata_tech/articles/6a06f484ebfab7",
+      "author": "kazuma sugiyama",
+      "emoji": "🐷",
+      "topics": [
+        "生成ai",
+        "aiエージェント"
+      ],
+      "total": 19,
+      "delta": 13,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-28T10:21:43.555+09:00"
+    },
+    {
+      "id": "github:obra/superpowers",
+      "source": "github",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "total": 308540,
+      "delta": 1034,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-10-09T19:45:18Z",
+      "description": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "zenn:666054",
+      "source": "zenn",
+      "title": "Flutter やめました。電話アプリを Native にした理由",
+      "url": "https://zenn.dev/ivry/articles/d155267331a3ca",
+      "author": "tsutou",
+      "emoji": "🕊️",
+      "topics": [
+        "claude"
+      ],
+      "total": 74,
+      "delta": 11,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-28T11:39:36.228+09:00"
+    },
+    {
+      "id": "github:affaan-m/ECC",
+      "source": "github",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "total": 292714,
+      "delta": 987,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-18T00:51:51Z",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "id": "zenn:675865",
+      "source": "zenn",
+      "title": "「シンプルに」と「多機能に」は、両立できる──マリオに学ぶUX設計",
+      "url": "https://zenn.dev/upgradetech/articles/0882ef73e9c025",
+      "author": "k.s1",
+      "emoji": "🏠",
+      "topics": [
+        "生成ai"
+      ],
+      "total": 29,
+      "delta": 11,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-26T18:44:58.689+09:00"
+    },
+    {
+      "id": "zenn:664693",
+      "source": "zenn",
+      "title": "なぜデザインシステムを「デザインハーネス」として作っているのか",
+      "url": "https://zenn.dev/xtm_blog/articles/design-system-as-design-harness",
+      "author": "mame",
+      "emoji": "🎨",
+      "topics": [
+        "ai"
+      ],
+      "total": 19,
+      "delta": 8,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-27T11:00:05.369+09:00"
+    }
+  ],
+  "errors": []
+}
