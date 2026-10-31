@@ -1,0 +1,413 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T00:34:13.595Z",
+  "items": [
+    {
+      "id": "github:pbakaus/impeccable",
+      "source": "github",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
+      ],
+      "total": 97051,
+      "delta": 2300,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2025-11-16T01:52:04Z",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+    },
+    {
+      "id": "github:HKUDS/DeepTutor",
+      "source": "github",
+      "title": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "ai-tutor",
+        "clawbot",
+        "cli-tool",
+        "deepresearch",
+        "interactive-learning",
+        "learning",
+        "multi-agent-systems",
+        "rag"
+      ],
+      "total": 51768,
+      "delta": 2282,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2025-12-28T15:35:54Z",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
+    },
+    {
+      "id": "zenn:675326",
+      "source": "zenn",
+      "title": "最近の E2E 戦略（2026 年 10 月現在）",
+      "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
+      "author": "Tatsunori Nakano",
+      "emoji": "🧙‍♂️",
+      "topics": [
+        "typescript",
+        "ai"
+      ],
+      "total": 263,
+      "delta": 59,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-10-26T10:18:03.294+09:00"
+    },
+    {
+      "id": "github:obra/superpowers",
+      "source": "github",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "total": 309418,
+      "delta": 1259,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-10-09T19:45:18Z",
+      "description": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "zenn:676449",
+      "source": "zenn",
+      "title": "コードを読まずにマージするために必要なこと",
+      "url": "https://zenn.dev/nrs/articles/c777388530aa84",
+      "author": "nrs",
+      "emoji": "😎",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 185,
+      "delta": 23,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-27T20:00:05.122+09:00"
+    },
+    {
+      "id": "github:thedotmack/claude-mem",
+      "source": "github",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence",
+        "chromadb",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "embeddings",
+        "long-term-memory",
+        "mem0",
+        "memory-engine",
+        "openmemory",
+        "rag",
+        "sqlite",
+        "supermemory"
+      ],
+      "total": 106235,
+      "delta": 1140,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-08-31T20:50:03Z",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+    },
+    {
+      "id": "zenn:675734",
+      "source": "zenn",
+      "title": "AI の謎な説明文を直すスキル",
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "author": "Kazuki Ota",
+      "emoji": "🐙",
+      "topics": [
+        "ai"
+      ],
+      "total": 257,
+      "delta": 22,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-26T13:32:54.835+09:00"
+    },
+    {
+      "id": "github:Renhuai123/ziwei-doushu",
+      "source": "github",
+      "title": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "language": "TypeScript",
+      "topics": [
+        "bazi",
+        "chinese-astrology",
+        "divination",
+        "fortune-telling",
+        "nextjs",
+        "open-source",
+        "purple-star-astrology",
+        "typescript",
+        "zi-wei-dou-shu",
+        "ziwei-doushu"
+      ],
+      "total": 11197,
+      "delta": 1126,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-05-01T05:09:59Z",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+    },
+    {
+      "id": "zenn:677540",
+      "source": "zenn",
+      "title": "人間がコードを読まずにPRをマージする技術 ─ それでも、品質は手放さない",
+      "url": "https://zenn.dev/karamage/articles/ac71f1c89c73ff",
+      "author": "karamage",
+      "emoji": "👁️",
+      "topics": [
+        "ai"
+      ],
+      "total": 42,
+      "delta": 22,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-29T17:26:16.870+09:00"
+    },
+    {
+      "id": "github:Orkas-AI/Orkas",
+      "source": "github",
+      "title": "Orkas-AI/Orkas",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "language": "JavaScript",
+      "topics": [
+        "agent-collaboration",
+        "agent-harness",
+        "agent-orchestration",
+        "agent-team",
+        "agent-workflow",
+        "ai-assistant",
+        "ai-automation",
+        "ai-employee",
+        "ai-productivity",
+        "ai-team",
+        "ai-workflow",
+        "autonomous-agents",
+        "claude-code-gui",
+        "claude-cowork",
+        "desktop-agent",
+        "local-first",
+        "multi-agent",
+        "multi-agent-system",
+        "self-evolving-agents",
+        "task-automation"
+      ],
+      "total": 4969,
+      "delta": 1004,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-04-29T12:19:08Z",
+      "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys."
+    },
+    {
+      "id": "zenn:677906",
+      "source": "zenn",
+      "title": "yoroによろしくぅ！Ai Workforce 事業部のリモートコーディングエージェント環境 yoro のご紹介",
+      "url": "https://zenn.dev/layerx/articles/a277f83a93d300",
+      "author": "ishiken",
+      "emoji": "🗂",
+      "topics": [
+        "claude"
+      ],
+      "total": 22,
+      "delta": 22,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-30T11:11:36.626+09:00"
+    },
+    {
+      "id": "github:pingdotgg/t3code",
+      "source": "github",
+      "title": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "language": "TypeScript",
+      "topics": [],
+      "total": 32732,
+      "delta": 930,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-02-08T23:46:22Z"
+    },
+    {
+      "id": "zenn:677408",
+      "source": "zenn",
+      "title": "元フロントエンドエンジニアがプロダクトエンジニアとして強制成長した1年",
+      "url": "https://zenn.dev/dress_code/articles/bbc5159fefbd2c",
+      "author": "もず",
+      "emoji": "🦾",
+      "topics": [
+        "frontend"
+      ],
+      "total": 31,
+      "delta": 13,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-29T19:30:05.226+09:00"
+    },
+    {
+      "id": "github:milind-soni/OpenMausBot",
+      "source": "github",
+      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "total": 8636,
+      "delta": 895,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-08-11T18:58:55Z",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use"
+    },
+    {
+      "id": "zenn:675905",
+      "source": "zenn",
+      "title": "Claude Code に React Native アプリを触らせるなら agent-device の CLI",
+      "url": "https://zenn.dev/gemcook/articles/rn-agent-device-cli-benchmark",
+      "author": "y.azuma",
+      "emoji": "👆",
+      "topics": [
+        "claudecode",
+        "mcp"
+      ],
+      "total": 13,
+      "delta": 13,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-10-30T14:25:21.822+09:00"
+    },
+    {
+      "id": "github:Leonxlnx/taste-skill",
+      "source": "github",
+      "title": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "cursor",
+        "design-system",
+        "frontend",
+        "landing-page",
+        "ui-design",
+        "web-design"
+      ],
+      "total": 106337,
+      "delta": 885,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-02-19T21:44:05Z",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
+    },
+    {
+      "id": "zenn:675865",
+      "source": "zenn",
+      "title": "「シンプルに」と「多機能に」は、両立できる──マリオに学ぶUX設計",
+      "url": "https://zenn.dev/upgradetech/articles/0882ef73e9c025",
+      "author": "k.s1",
+      "emoji": "🏠",
+      "topics": [
+        "生成ai"
+      ],
+      "total": 38,
+      "delta": 9,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-26T18:44:58.689+09:00"
+    },
+    {
+      "id": "github:mattpocock/skills",
+      "source": "github",
+      "title": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "language": "Shell",
+      "topics": [],
+      "total": 307477,
+      "delta": 876,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-02-03T11:15:53Z",
+      "description": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "id": "zenn:666725",
+      "source": "zenn",
+      "title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？？",
+      "url": "https://zenn.dev/nttdata_tech/articles/6a06f484ebfab7",
+      "author": "kazuma sugiyama",
+      "emoji": "🐷",
+      "topics": [
+        "生成ai",
+        "aiエージェント"
+      ],
+      "total": 25,
+      "delta": 6,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-28T10:21:43.555+09:00"
+    },
+    {
+      "id": "zenn:654580",
+      "source": "zenn",
+      "title": "Chromium(V8)のArray.prototype.lastIndexOfを最大約26000倍高速化した",
+      "url": "https://zenn.dev/dinii/articles/2f66b147007cf8",
+      "author": "Riya Amemiya",
+      "emoji": "🔍",
+      "topics": [
+        "javascript"
+      ],
+      "total": 16,
+      "delta": 6,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-10-27T10:00:06.564+09:00"
+    }
+  ],
+  "errors": []
+}
