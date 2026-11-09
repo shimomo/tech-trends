@@ -1,0 +1,398 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T00:38:58.451Z",
+  "items": [
+    {
+      "id": "github:milind-soni/OpenMausBot",
+      "source": "github",
+      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "total": 18243,
+      "delta": 1439,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-08-11T18:58:55Z",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use"
+    },
+    {
+      "id": "zenn:680031",
+      "source": "zenn",
+      "title": "ISUCON2026 で優勝しました（当日編）",
+      "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
+      "author": "Yoshinori Kawasaki",
+      "emoji": "🏆",
+      "topics": [
+        "claudecode",
+        "aiエージェント"
+      ],
+      "total": 1048,
+      "delta": 31,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-02T22:26:09.912+09:00"
+    },
+    {
+      "id": "github:cloudflare/security-audit-skill",
+      "source": "github",
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "language": "JavaScript",
+      "topics": [],
+      "total": 66850,
+      "delta": 1376,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-06-18T14:08:44Z",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+    },
+    {
+      "id": "zenn:683043",
+      "source": "zenn",
+      "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+      "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+      "author": "tomi",
+      "emoji": "🛡️",
+      "topics": [
+        "nodejs",
+        "claude"
+      ],
+      "total": 41,
+      "delta": 30,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-07T15:44:47.069+09:00"
+    },
+    {
+      "id": "github:meta/astryx",
+      "source": "github",
+      "title": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "language": "TypeScript",
+      "topics": [],
+      "total": 16748,
+      "delta": 875,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-09T16:20:32Z",
+      "description": "An open source design system that's fully customizable and agent ready"
+    },
+    {
+      "id": "zenn:682488",
+      "source": "zenn",
+      "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+      "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+      "author": "しもち",
+      "emoji": "🚥",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 50,
+      "delta": 25,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-06T17:59:24.259+09:00"
+    },
+    {
+      "id": "github:vercel-labs/agent-browser",
+      "source": "github",
+      "title": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "topics": [],
+      "total": 47592,
+      "delta": 815,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-11T05:38:15Z",
+      "description": "Browser automation CLI for AI agents"
+    },
+    {
+      "id": "zenn:682386",
+      "source": "zenn",
+      "title": "記事は短くていい",
+      "url": "https://zenn.dev/herp_inc/articles/90d6052024a30f",
+      "author": "ふみ",
+      "emoji": "🐕",
+      "topics": [
+        "llm"
+      ],
+      "total": 29,
+      "delta": 19,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-06T16:19:00.072+09:00"
+    },
+    {
+      "id": "github:anthropics/skills",
+      "source": "github",
+      "title": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "total": 189636,
+      "delta": 792,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-09-22T15:53:31Z",
+      "description": "Public repository for Agent Skills"
+    },
+    {
+      "id": "zenn:677724",
+      "source": "zenn",
+      "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
+      "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "author": "dyoshikawa",
+      "emoji": "🛡️",
+      "topics": [
+        "ai"
+      ],
+      "total": 114,
+      "delta": 11,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-04T10:19:56.845+09:00"
+    },
+    {
+      "id": "github:ranxianglei/billion-context",
+      "source": "github",
+      "title": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "language": "TypeScript",
+      "topics": [
+        "dsh-plugin"
+      ],
+      "total": 5143,
+      "delta": 460,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-08-06T08:27:34Z",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need"
+    },
+    {
+      "id": "zenn:682045",
+      "source": "zenn",
+      "title": "Weight-Space Programming やってみた(やらせてみた)",
+      "url": "https://zenn.dev/nwn/articles/cf9fe78aa33861",
+      "author": "ヨ",
+      "emoji": "💨",
+      "topics": [
+        "llm",
+        "ai"
+      ],
+      "total": 35,
+      "delta": 10,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-07T09:57:13.508+09:00"
+    },
+    {
+      "id": "github:rohitg00/ai-engineering-from-scratch",
+      "source": "github",
+      "title": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "dsh",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "python",
+        "rea",
+        "reinforcement-learning",
+        "rust",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "total": 77815,
+      "delta": 449,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-03-18T18:38:02Z",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others."
+    },
+    {
+      "id": "zenn:682389",
+      "source": "zenn",
+      "title": "米津玄師に学ぶ：一人で全部作れる時代に、なぜ人と作るのか",
+      "url": "https://zenn.dev/tokium_dev/articles/yonezu-kenshi-why-create-with-others",
+      "author": "タケノコご飯",
+      "emoji": "🍋",
+      "topics": [
+        "生成ai"
+      ],
+      "total": 41,
+      "delta": 8,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-06T13:08:37.267+09:00"
+    },
+    {
+      "id": "github:Anil-matcha/Open-Generative-AI",
+      "source": "github",
+      "title": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "language": "JavaScript",
+      "topics": [
+        "ai-art-generator",
+        "ai-image-generation",
+        "ai-video-generation",
+        "fal-ai-alternative",
+        "generative-ai",
+        "image-to-video",
+        "invideo-alternative",
+        "kling-ai",
+        "lipsync",
+        "litellm-alternative",
+        "midjourney-alternative",
+        "muapi",
+        "open-source",
+        "openrouter-alternative",
+        "seedance2",
+        "sora-alternative",
+        "text-to-image",
+        "text-to-video",
+        "uncensored",
+        "wan-video"
+      ],
+      "total": 33416,
+      "delta": 373,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2023-05-09T14:12:37Z",
+      "description": "Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed."
+    },
+    {
+      "id": "zenn:679380",
+      "source": "zenn",
+      "title": "コードを読まずにバイブコーディングしたら、Claude Codeは分かっていてスルーしていた",
+      "url": "https://zenn.dev/nexta_/articles/42a828ca2b8a02",
+      "author": "bik",
+      "emoji": "🙈",
+      "topics": [
+        "ai",
+        "生成ai",
+        "claudecode"
+      ],
+      "total": 75,
+      "delta": 4,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-04T11:30:07.289+09:00"
+    },
+    {
+      "id": "github:dsx-ai-factory/nvke",
+      "source": "github",
+      "title": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "language": "Go",
+      "topics": [
+        "bare-metal",
+        "cluster-api",
+        "gpu",
+        "kubernetes",
+        "nvidia"
+      ],
+      "total": 846,
+      "delta": 345,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-08-04T15:42:58Z",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal."
+    },
+    {
+      "id": "zenn:682765",
+      "source": "zenn",
+      "title": "意思決定だけで週100コミット積むAI開発手法",
+      "url": "https://zenn.dev/kingyosun/articles/kukuri-ai-dev",
+      "author": "KingYoSun",
+      "emoji": "🚀",
+      "topics": [
+        "aiエージェント"
+      ],
+      "total": 10,
+      "delta": 4,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-07T02:26:04.139+09:00"
+    },
+    {
+      "id": "github:hmjz100/LinkSwift",
+      "source": "github",
+      "title": "hmjz100/LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "language": "JavaScript",
+      "topics": [
+        "123pan",
+        "aliyun-drive",
+        "aliyunpan",
+        "aria2",
+        "baidu",
+        "baidu-netdisk",
+        "baidunetdisk",
+        "baidupan",
+        "baiduyun",
+        "guangya-netdisk",
+        "motrix",
+        "quark-netdisk",
+        "tampermonkey",
+        "tampermonkey-script",
+        "tampermonkey-userscript",
+        "tianyi-netdisk",
+        "uc-netdisk",
+        "userscript",
+        "xunlei-netdisk",
+        "yidong-netdisk"
+      ],
+      "total": 38857,
+      "delta": 334,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2022-08-10T11:59:44Z",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘"
+    },
+    {
+      "id": "zenn:682079",
+      "source": "zenn",
+      "title": "AI駆動文章作成において俺が意識しているテクニック集",
+      "url": "https://zenn.dev/ntk221/articles/34ad88a9225364",
+      "author": "ntk",
+      "emoji": "🗒️",
+      "topics": [
+        "ai"
+      ],
+      "total": 37,
+      "delta": 3,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-05T23:35:31.293+09:00"
+    }
+  ],
+  "errors": []
+}
