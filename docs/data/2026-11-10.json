@@ -1,0 +1,389 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T03:18:19.699Z",
+  "items": [
+    {
+      "id": "github:meta/astryx",
+      "source": "github",
+      "title": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "language": "TypeScript",
+      "topics": [],
+      "total": 20412,
+      "delta": 3278,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-01-09T16:20:32Z",
+      "description": "An open source design system that's fully customizable and agent ready"
+    },
+    {
+      "id": "github:milind-soni/OpenMausBot",
+      "source": "github",
+      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "total": 19855,
+      "delta": 1587,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-08-11T18:58:55Z",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use"
+    },
+    {
+      "id": "github:debpalash/VoiceStudio",
+      "source": "github",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "total": 106286,
+      "delta": 1262,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-04-09T21:40:26Z",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+    },
+    {
+      "id": "zenn:672477",
+      "source": "zenn",
+      "title": "閉域網でも AI を使いこなす: ローカル LLM × GitLab DAP（GitLab Epic Tour Japan 2026 登壇）",
+      "url": "https://zenn.dev/fixstars/articles/gitlab-epic-tour-2026-local-llm",
+      "author": "Yoshiki Matsuda",
+      "emoji": "🦊",
+      "topics": [
+        "aiエージェント"
+      ],
+      "total": 30,
+      "delta": 30,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-11-09T10:45:40.384+09:00"
+    },
+    {
+      "id": "github:anthropics/skills",
+      "source": "github",
+      "title": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "total": 191157,
+      "delta": 1038,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-09-22T15:53:31Z",
+      "description": "Public repository for Agent Skills"
+    },
+    {
+      "id": "zenn:682386",
+      "source": "zenn",
+      "title": "記事は短くていい",
+      "url": "https://zenn.dev/herp_inc/articles/90d6052024a30f",
+      "author": "ふみ",
+      "emoji": "🐕",
+      "topics": [
+        "llm"
+      ],
+      "total": 55,
+      "delta": 26,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-06T16:19:00.072+09:00"
+    },
+    {
+      "id": "github:vercel-labs/agent-browser",
+      "source": "github",
+      "title": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "language": "Rust",
+      "topics": [],
+      "total": 48590,
+      "delta": 916,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-11T05:38:15Z",
+      "description": "Browser automation CLI for AI agents"
+    },
+    {
+      "id": "zenn:677724",
+      "source": "zenn",
+      "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
+      "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "author": "dyoshikawa",
+      "emoji": "🛡️",
+      "topics": [
+        "ai"
+      ],
+      "total": 131,
+      "delta": 17,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-04T10:19:56.845+09:00"
+    },
+    {
+      "id": "github:ranxianglei/billion-context",
+      "source": "github",
+      "title": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "language": "TypeScript",
+      "topics": [
+        "dsh-plugin"
+      ],
+      "total": 5788,
+      "delta": 760,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-08-06T08:27:34Z",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need"
+    },
+    {
+      "id": "zenn:683043",
+      "source": "zenn",
+      "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+      "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+      "author": "tomi",
+      "emoji": "🛡️",
+      "topics": [
+        "nodejs",
+        "claude"
+      ],
+      "total": 58,
+      "delta": 17,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-07T15:44:47.069+09:00"
+    },
+    {
+      "id": "github:HKUDS/DeepTutor",
+      "source": "github",
+      "title": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "ai-tutor",
+        "clawbot",
+        "cli-tool",
+        "deepresearch",
+        "interactive-learning",
+        "learning",
+        "multi-agent-systems",
+        "rag"
+      ],
+      "total": 57670,
+      "delta": 710,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-12-28T15:35:54Z",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
+    },
+    {
+      "id": "zenn:682488",
+      "source": "zenn",
+      "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+      "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+      "author": "しもち",
+      "emoji": "🚥",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 66,
+      "delta": 16,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-06T17:59:24.259+09:00"
+    },
+    {
+      "id": "github:anthropics/claude-quickstarts",
+      "source": "github",
+      "title": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "language": "Python",
+      "topics": [],
+      "total": 20080,
+      "delta": 551,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2024-08-29T19:52:32Z",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+    },
+    {
+      "id": "zenn:682389",
+      "source": "zenn",
+      "title": "米津玄師に学ぶ：一人で全部作れる時代に、なぜ人と作るのか",
+      "url": "https://zenn.dev/tokium_dev/articles/yonezu-kenshi-why-create-with-others",
+      "author": "タケノコご飯",
+      "emoji": "🍋",
+      "topics": [
+        "生成ai"
+      ],
+      "total": 57,
+      "delta": 16,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-06T13:08:37.267+09:00"
+    },
+    {
+      "id": "github:ZhuLinsen/daily_stock_analysis",
+      "source": "github",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "language": "Python",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "total": 69028,
+      "delta": 506,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-10T06:43:20Z",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+    },
+    {
+      "id": "zenn:680827",
+      "source": "zenn",
+      "title": "Claudeデスクトップアプリの「新しいウィンドウ」に無いボタンを、mod 機能で足してみた",
+      "url": "https://zenn.dev/nexta_/articles/claude-desktop-mod-buttons",
+      "author": "大西洋",
+      "emoji": "🔘",
+      "topics": [
+        "typescript",
+        "ai",
+        "claude",
+        "claudecode"
+      ],
+      "total": 15,
+      "delta": 15,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-11-09T11:30:07.728+09:00"
+    },
+    {
+      "id": "github:rohitg00/ai-engineering-from-scratch",
+      "source": "github",
+      "title": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "dsh",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "python",
+        "rea",
+        "reinforcement-learning",
+        "rust",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "total": 78173,
+      "delta": 326,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-03-18T18:38:02Z",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others."
+    },
+    {
+      "id": "zenn:682083",
+      "source": "zenn",
+      "title": "週間制限に3日で到達していたClaudeが、ModelとEffortの使い分けで5日持つようになった話",
+      "url": "https://zenn.dev/sun_asterisk/articles/1d1c65b1fe409a",
+      "author": "Asutin",
+      "emoji": "😊",
+      "topics": [
+        "claude",
+        "claudecode"
+      ],
+      "total": 14,
+      "delta": 14,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-11-09T08:00:05.671+09:00"
+    },
+    {
+      "id": "zenn:684072",
+      "source": "zenn",
+      "title": "Backlogを「AIが読み書きする場所」にした。Claude Code＋Backlog MCPで内製アプリのセキュリティチェックを回す話",
+      "url": "https://zenn.dev/nexta_/articles/02ded124295a6c",
+      "author": "Ayaka",
+      "emoji": "📘",
+      "topics": [
+        "claudecode",
+        "mcp"
+      ],
+      "total": 14,
+      "delta": 14,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-11-09T16:00:05.937+09:00"
+    },
+    {
+      "id": "zenn:684111",
+      "source": "zenn",
+      "title": "【JBUG東京#30】Backlogの使い方より「Claudeの統制」と「非エンジニアへの届け方」を聞かれた",
+      "url": "https://zenn.dev/nexta_/articles/fc0f8504acb1f6",
+      "author": "Ayaka",
+      "emoji": "🎤",
+      "topics": [
+        "claudecode"
+      ],
+      "total": 14,
+      "delta": 14,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-11-09T16:10:13.927+09:00"
+    }
+  ],
+  "errors": []
+}
