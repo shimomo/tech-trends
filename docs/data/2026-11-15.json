@@ -1,0 +1,398 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T00:53:34.387Z",
+  "items": [
+    {
+      "id": "github:GoogleChrome/modern-web-guidance-src",
+      "source": "github",
+      "title": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "language": "TypeScript",
+      "topics": [],
+      "total": 6059,
+      "delta": 1231,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-27T20:22:24Z",
+      "description": "Keep your coding agent up to date with the latest web best practices"
+    },
+    {
+      "id": "zenn:686638",
+      "source": "zenn",
+      "title": "【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え",
+      "url": "https://zenn.dev/karamage/articles/5c3f8370b2b370",
+      "author": "karamage",
+      "emoji": "👩‍🍳",
+      "topics": [
+        "ai",
+        "claude"
+      ],
+      "total": 53,
+      "delta": 29,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-13T11:48:24.194+09:00"
+    },
+    {
+      "id": "github:alibaba/open-code-review",
+      "source": "github",
+      "title": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "total": 51440,
+      "delta": 893,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-05-18T02:16:36Z",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+    },
+    {
+      "id": "zenn:684507",
+      "source": "zenn",
+      "title": "Claude Codeで最近使っているTips【2026/11】",
+      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "author": "Oikon",
+      "emoji": "💫",
+      "topics": [
+        "ai",
+        "claude",
+        "claudecode"
+      ],
+      "total": 275,
+      "delta": 21,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-10T07:01:05.415+09:00"
+    },
+    {
+      "id": "github:ChromeDevTools/chrome-devtools-mcp",
+      "source": "github",
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging",
+        "devtools",
+        "mcp",
+        "mcp-server",
+        "puppeteer"
+      ],
+      "total": 56306,
+      "delta": 664,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-09-11T10:39:55Z",
+      "description": "Chrome DevTools for coding agents"
+    },
+    {
+      "id": "zenn:686995",
+      "source": "zenn",
+      "title": "Qwen3.8 Flash Nextに混ざる中国語を、出力層の書き換えで消した: 27%→0%、他の重みは1バイトも変えずに",
+      "url": "https://zenn.dev/caphtech/articles/qwen38-zh-ban",
+      "author": "rizumita",
+      "emoji": "🀄",
+      "topics": [
+        "llm"
+      ],
+      "total": 21,
+      "delta": 21,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-13T22:08:40.977+09:00"
+    },
+    {
+      "id": "github:openai/codex-security",
+      "source": "github",
+      "title": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "language": "TypeScript",
+      "topics": [
+        "ai-security",
+        "application-security",
+        "cli",
+        "code-scanning",
+        "codex",
+        "codex-security",
+        "cybersecurity",
+        "devsecops",
+        "nodejs",
+        "npm",
+        "openai",
+        "sdk",
+        "security",
+        "typescript",
+        "vulnerability-scanning"
+      ],
+      "total": 13544,
+      "delta": 595,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-07-13T22:00:13Z",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security"
+    },
+    {
+      "id": "zenn:685494",
+      "source": "zenn",
+      "title": "ISUCON2026 で優勝しました（準備編）",
+      "url": "https://zenn.dev/luvtechno/articles/isucon2026-preparation",
+      "author": "Yoshinori Kawasaki",
+      "emoji": "🛠️",
+      "topics": [
+        "claudecode",
+        "aiエージェント"
+      ],
+      "total": 422,
+      "delta": 19,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-11T14:05:46.641+09:00"
+    },
+    {
+      "id": "github:tradermonty/claude-trading-skills",
+      "source": "github",
+      "title": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "language": "Python",
+      "topics": [],
+      "total": 4816,
+      "delta": 553,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-10-19T16:37:29Z",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development."
+    },
+    {
+      "id": "zenn:685662",
+      "source": "zenn",
+      "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+      "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+      "author": "Yuku Kotani",
+      "emoji": "👯",
+      "topics": [
+        "ai"
+      ],
+      "total": 166,
+      "delta": 14,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-12T09:44:52.478+09:00"
+    },
+    {
+      "id": "github:dream-num/univer",
+      "source": "github",
+      "title": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "language": "TypeScript",
+      "topics": [
+        "board",
+        "collaboration",
+        "doc",
+        "docx",
+        "excel",
+        "offce365",
+        "office",
+        "pdf",
+        "ppt",
+        "pptx",
+        "presentation",
+        "sdk",
+        "sheet",
+        "slides",
+        "spreadsheet",
+        "univer",
+        "word",
+        "wordprocessor",
+        "workspace",
+        "xlsx"
+      ],
+      "total": 24499,
+      "delta": 495,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2022-09-29T12:09:14Z",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core."
+    },
+    {
+      "id": "zenn:686712",
+      "source": "zenn",
+      "title": "5年後のエンジニアは、何に責任を持つのだろうか",
+      "url": "https://zenn.dev/ara_ta3/articles/thinking-about-engineers-five-years-from-now",
+      "author": "ara_ta3",
+      "emoji": "🔭",
+      "topics": [
+        "ai"
+      ],
+      "total": 25,
+      "delta": 11,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-13T14:03:44.404+09:00"
+    },
+    {
+      "id": "github:louislam/uptime-kuma",
+      "source": "github",
+      "title": "louislam/uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "language": "JavaScript",
+      "topics": [
+        "docker",
+        "monitor",
+        "monitoring",
+        "responsive",
+        "self-hosted",
+        "selfhosted",
+        "single-page-app",
+        "socket-io",
+        "uptime",
+        "uptime-monitoring",
+        "webapp",
+        "websocket"
+      ],
+      "total": 94241,
+      "delta": 430,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2021-07-03T01:02:42Z",
+      "description": "A fancy self-hosted monitoring tool"
+    },
+    {
+      "id": "zenn:685695",
+      "source": "zenn",
+      "title": "AIで膨らみ続けるテストケースを、リスクベースドテストで選んで回すまでの記録",
+      "url": "https://zenn.dev/pivotmedia/articles/risk-based-testing-for-uat",
+      "author": "Keisuke",
+      "emoji": "🎯",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 20,
+      "delta": 10,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-12T20:41:36.760+09:00"
+    },
+    {
+      "id": "github:Likely7/Veyra-NRVideo",
+      "source": "github",
+      "title": "Likely7/Veyra-NRVideo",
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "language": "C++",
+      "topics": [],
+      "total": 2267,
+      "delta": 420,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-09-09T10:58:42Z",
+      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience."
+    },
+    {
+      "id": "zenn:686431",
+      "source": "zenn",
+      "title": "脱WordPress：10年超の個人ブログをAstro + Cloudflare Workersへ移行しPageSpeed 100点を実現",
+      "url": "https://zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
+      "author": "星影",
+      "emoji": "🚀",
+      "topics": [
+        "astro",
+        "claude"
+      ],
+      "total": 12,
+      "delta": 9,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-13T00:31:01.357+09:00"
+    },
+    {
+      "id": "github:addyosmani/agent-skills",
+      "source": "github",
+      "title": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "total": 117576,
+      "delta": 411,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-02-15T20:20:26Z",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "id": "zenn:686010",
+      "source": "zenn",
+      "title": "vitest を wasm の力で30% 速くする、jsdom から wasm-quickjs-dom に変えて高速化",
+      "url": "https://zenn.dev/sora_kumo/articles/wasm-quickjs-dom-bench",
+      "author": "空雲",
+      "emoji": "🌊",
+      "topics": [
+        "react",
+        "typescript"
+      ],
+      "total": 29,
+      "delta": 7,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-12T11:42:14.238+09:00"
+    },
+    {
+      "id": "github:backnotprop/plannotator",
+      "source": "github",
+      "title": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "claude-code",
+        "code-review",
+        "codex",
+        "obsidian",
+        "opencode",
+        "pi-mono",
+        "plan-mode",
+        "skills"
+      ],
+      "total": 11131,
+      "delta": 408,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2025-12-28T02:09:40Z",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. "
+    },
+    {
+      "id": "zenn:684491",
+      "source": "zenn",
+      "title": "退屈なCoding AgentはMuseにやらせよう",
+      "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+      "author": "watany",
+      "emoji": "🪆",
+      "topics": [
+        "ai",
+        "chatgpt"
+      ],
+      "total": 228,
+      "delta": 6,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-10T11:35:05.108+09:00"
+    }
+  ],
+  "errors": []
+}
