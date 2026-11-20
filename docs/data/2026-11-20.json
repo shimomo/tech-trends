@@ -1,0 +1,423 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T02:07:54.797Z",
+  "items": [
+    {
+      "id": "github:obra/superpowers",
+      "source": "github",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "total": 322126,
+      "delta": 2028,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2025-10-09T19:45:18Z",
+      "description": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "zenn:689539",
+      "source": "zenn",
+      "title": "おい、 Mutation Test をやれ。テスト品質を、測るために",
+      "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
+      "author": "mizchi",
+      "emoji": "🧬",
+      "topics": [
+        "typescript",
+        "javascript"
+      ],
+      "total": 388,
+      "delta": 54,
+      "hot": true,
+      "isNew": false,
+      "publishedAt": "2026-11-17T18:53:47.264+09:00"
+    },
+    {
+      "id": "github:elementalsouls/Claude-BugHunter",
+      "source": "github",
+      "title": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "language": "Python",
+      "topics": [
+        "ai-security",
+        "anthropic",
+        "application-security",
+        "bug-bounty",
+        "bugbounty",
+        "bugcrowd",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "ethical-hacking",
+        "hackerone",
+        "offensive-security",
+        "pentesting",
+        "red-team",
+        "security-tools",
+        "web-security"
+      ],
+      "total": 12611,
+      "delta": 1349,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-05-05T11:22:32Z",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+    },
+    {
+      "id": "zenn:686613",
+      "source": "zenn",
+      "title": "毎月6,000 AI Agentsを捌くためにキーボードを捨てた話",
+      "url": "https://zenn.dev/andoshin11/articles/ba68b39ef9a8ce",
+      "author": "Andy",
+      "emoji": "🏭",
+      "topics": [
+        "claude"
+      ],
+      "total": 165,
+      "delta": 31,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-17T12:13:36.510+09:00"
+    },
+    {
+      "id": "github:google-research/paper-orchestra",
+      "source": "github",
+      "title": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "language": "Python",
+      "topics": [
+        "ai-research-assistant",
+        "multi-agent-systems"
+      ],
+      "total": 5072,
+      "delta": 1196,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-05-01T18:07:52Z",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing."
+    },
+    {
+      "id": "zenn:688958",
+      "source": "zenn",
+      "title": "Claude Desktop 開発のすゝめ",
+      "url": "https://zenn.dev/peoplex_blog/articles/vscode-to-claude-desktop",
+      "author": "Aki 🚀 Product Engineer @ PeopleX",
+      "emoji": "🖥️",
+      "topics": [
+        "ai",
+        "claude",
+        "claudecode"
+      ],
+      "total": 63,
+      "delta": 22,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-17T12:41:36.887+09:00"
+    },
+    {
+      "id": "github:affaan-m/ECC",
+      "source": "github",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "total": 307317,
+      "delta": 959,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-18T00:51:51Z",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "id": "zenn:689028",
+      "source": "zenn",
+      "title": "最近、コードを真面目に読まなくなった",
+      "url": "https://zenn.dev/hiromoo/articles/reading-less-preparing-more",
+      "author": "むた",
+      "emoji": "📖",
+      "topics": [
+        "ai",
+        "生成ai"
+      ],
+      "total": 71,
+      "delta": 20,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-17T00:24:23.487+09:00"
+    },
+    {
+      "id": "github:mvanhorn/last30days-skill",
+      "source": "github",
+      "title": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "total": 70834,
+      "delta": 954,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-01-23T20:37:37Z",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "id": "zenn:684804",
+      "source": "zenn",
+      "title": "自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス",
+      "url": "https://zenn.dev/nttdata_tech/articles/9562962cc181a1",
+      "author": "Kazuma Yoshimoto | 吉本 和真",
+      "emoji": "🧭",
+      "topics": [
+        "claudecode",
+        "aiエージェント"
+      ],
+      "total": 19,
+      "delta": 19,
+      "hot": false,
+      "isNew": true,
+      "publishedAt": "2026-11-19T16:28:27.885+09:00"
+    },
+    {
+      "id": "github:HKUDS/CLI-Anything",
+      "source": "github",
+      "title": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "language": "Python",
+      "topics": [],
+      "total": 60606,
+      "delta": 898,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-03-08T13:52:57Z",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+    },
+    {
+      "id": "zenn:681195",
+      "source": "zenn",
+      "title": "CSS では書きにくいアニメーションを Web Animations API で書く",
+      "url": "https://zenn.dev/omu_tryangle/articles/b5817393592229",
+      "author": "hyakutake",
+      "emoji": "💫",
+      "topics": [
+        "javascript"
+      ],
+      "total": 33,
+      "delta": 17,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-16T15:35:01.946+09:00"
+    },
+    {
+      "id": "github:DietrichGebert/ponytail",
+      "source": "github",
+      "title": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "total": 194879,
+      "delta": 878,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-06-12T00:52:37Z",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "id": "zenn:679613",
+      "source": "zenn",
+      "title": "ローカルLLM入門",
+      "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+      "author": "tesla",
+      "emoji": "🎓",
+      "topics": [
+        "llm",
+        "ai",
+        "openai",
+        "claude"
+      ],
+      "total": 61,
+      "delta": 12,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-17T16:17:24.717+09:00"
+    },
+    {
+      "id": "github:firecrawl/firecrawl",
+      "source": "github",
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search",
+        "crawler",
+        "data-extraction",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "scraper",
+        "scraping",
+        "web-crawler",
+        "web-data",
+        "web-data-extraction",
+        "web-scraper",
+        "web-scraping",
+        "web-search",
+        "webscraping"
+      ],
+      "total": 204300,
+      "delta": 825,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2024-04-15T21:02:29Z",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API."
+    },
+    {
+      "id": "zenn:690001",
+      "source": "zenn",
+      "title": "tsrs を導入したら oxlint の type-aware linting と typecheck が爆速になった話",
+      "url": "https://zenn.dev/dress_code/articles/6c179ae5129131",
+      "author": "ぷーじ",
+      "emoji": "🦀",
+      "topics": [
+        "typescript"
+      ],
+      "total": 42,
+      "delta": 12,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-18T16:00:06.746+09:00"
+    },
+    {
+      "id": "github:solidjs/solid",
+      "source": "github",
+      "title": "solidjs/solid",
+      "url": "https://github.com/solidjs/solid",
+      "language": "TypeScript",
+      "topics": [
+        "declarative",
+        "fine-grained",
+        "javascript",
+        "jsx",
+        "performance",
+        "proxies",
+        "reactive",
+        "solid"
+      ],
+      "total": 36829,
+      "delta": 459,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2018-04-24T16:36:27Z",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
+    },
+    {
+      "id": "zenn:686927",
+      "source": "zenn",
+      "title": "QA生産性を爆上げさせるためのQA AIプラットフォーム構築",
+      "url": "https://zenn.dev/gatechnologies/articles/8bdea59269eb10",
+      "author": "akki",
+      "emoji": "🤖",
+      "topics": [
+        "aiエージェント"
+      ],
+      "total": 53,
+      "delta": 9,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-16T18:12:44.662+09:00"
+    },
+    {
+      "id": "github:microsoft/markitdown",
+      "source": "github",
+      "title": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "language": "Python",
+      "topics": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ],
+      "total": 197040,
+      "delta": 434,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2024-11-13T19:56:40Z",
+      "description": "Python tool for converting files and office documents to Markdown."
+    },
+    {
+      "id": "zenn:690297",
+      "source": "zenn",
+      "title": "vue-tscの壁を越える：vizeとtsrsでVueの型検査を高速化した",
+      "url": "https://zenn.dev/studio/articles/vue-typecheck-vize-tsrs",
+      "author": "miyaoka",
+      "emoji": "⚡️",
+      "topics": [
+        "typescript",
+        "vue"
+      ],
+      "total": 14,
+      "delta": 6,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-18T23:26:28.562+09:00"
+    }
+  ],
+  "errors": []
+}
