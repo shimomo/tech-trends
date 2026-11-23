@@ -8,6 +8,7 @@ import { collectGithub } from "./sources/github.js";
 import { collectZenn } from "./sources/zenn.js";
 import type { Config, DayFile } from "./types.js";
 import {
+  readDayFile,
   readSnapshotFile,
   updateIndex,
   writeDayFile,
@@ -20,17 +21,34 @@ export interface RunDeps {
   token?: string;
   now: Date;
   dataDir: string;
+  /** 当日分がすでにあり、Zenn も取れていれば何もしない（定時実行用） */
+  onlyIfNeeded?: boolean;
+}
+
+/** Zenn がエラーを出し、1 件も載らなかった日。ランナー（IP）が変われば取れることが多い */
+function zennMissing(day: DayFile): boolean {
+  return (
+    day.errors.some((e) => e.source === "zenn") &&
+    !day.items.some((i) => i.source === "zenn")
+  );
 }
 
 /**
  * 収集 → 選別 → 書き出し。errors が 1 件でもあれば exitCode 1。
  * 書き出しは必ず終えてから exitCode を返す。
+ * onlyIfNeeded で当日分が揃っていれば、何も取らず skipped: true と既存の内容を返す。
  */
 export async function runCollect(
   deps: RunDeps,
-): Promise<{ day: DayFile; exitCode: 0 | 1 }> {
+): Promise<{ day: DayFile; exitCode: 0 | 1; skipped: boolean }> {
   const { config, http, token, now, dataDir } = deps;
   const today = jstDate(now);
+
+  if (deps.onlyIfNeeded) {
+    const existing = await readDayFile(dataDir, today);
+    if (existing && !zennMissing(existing))
+      return { day: existing, exitCode: 0, skipped: true };
+  }
 
   const [github, zenn] = await Promise.all([
     collectGithub(config.github, http, token),
@@ -65,5 +83,5 @@ export async function runCollect(
     await writeSnapshotFile(dataDir, upsertSnapshot(snapshotFile, snap));
   }
 
-  return { day, exitCode: day.errors.length > 0 ? 1 : 0 };
+  return { day, exitCode: day.errors.length > 0 ? 1 : 0, skipped: false };
 }

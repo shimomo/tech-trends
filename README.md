@@ -16,8 +16,8 @@ GitHub Actions が収集してリポジトリにコミットし、GitHub Pages �
 ## 仕組み
 
 ```
-GitHub Actions (毎日 06:00 JST ごろ)
-  npm run collect
+GitHub Actions (毎日 06:00 JST ごろ。08:00 JST ごろにもう一度起動し、必要なときだけ集め直す)
+  npm run collect -- --if-needed
     ├─ GitHub Trending (HTML) → GitHub REST API で補完 → 関心領域で絞る → スター増加数順
     └─ Zenn API (トピック別デイリー) → 前日スナップショットと比較 → いいね増加数順
   → docs/data/YYYY-MM-DD.json, index.json, zenn-snapshot.json をコミット
@@ -27,6 +27,14 @@ GitHub Pages (main ブランチの /docs)
 
 GitHub Trending のページと Zenn の JSON API はどちらも**非公式**。構造が変わると収集が失敗するが、
 その場合は Actions の実行が赤くなり、ページにも注意書きが出る。取れた分は表示される。
+
+Zenn はランナーの IP 単位で HTTP 429（レート制限）を返すことがある。ランナーの IP は他の利用者と共用なので、
+こちらのアクセスが少なくても断られる日がある。そのときは次のように動く。
+
+- 再試行しても 429 が返ったトピックで Zenn の取得を打ち切る（残りのトピックは取りに行かない）
+- エラーには `retry-after`・`cf-ray`・応答本文の先頭を残す（Cloudflare か Zenn 本体かの切り分け用）
+- 定時実行は `--if-needed` 付きで動き、当日分がすでにあって Zenn も 1 件以上載っていれば何もしない。
+  06:00 の実行で Zenn が全件失敗していれば、08:00 の実行が別のランナー（別の IP）で集め直す
 
 ## セットアップ
 
@@ -47,7 +55,9 @@ GitHub Trending のページと Zenn の JSON API はどちらも**非公式**�
 
    数分後に https://shimomo.github.io/tech-trends/ に当日のカードが出る。
 
-以降は毎日 06:00 JST ごろに自動で動く。GitHub の cron は数十分遅れることがある。
+以降は毎日 06:00 JST ごろに自動で動く（08:00 JST ごろの 2 本目は、当日分の Zenn が全件失敗していたときだけ集め直す）。
+GitHub の cron は数時間遅れることがあり、2 本の順番が入れ替わることもあるが、どちらも「当日分が揃っていれば何もしない」ので結果は変わらない。
+手動実行（`gh workflow run collect.yml`）は常に集め直す。
 
 ## 設定（config.json）
 
@@ -71,6 +81,7 @@ GitHub Trending のページと Zenn の JSON API はどちらも**非公式**�
 ```bash
 npm ci
 GITHUB_TOKEN=$(gh auth token) npm run collect   # docs/data/ に書く
+npm run collect -- --if-needed                  # 当日分が揃っていれば何もしない（定時実行と同じ）
 python3 -m http.server 8765 -d docs             # http://localhost:8765/
 npm test
 ```

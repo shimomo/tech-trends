@@ -4,6 +4,9 @@ on:
   schedule:
     # 21:00 UTC = 06:00 JST
     - cron: "0 21 * * *"
+    # 23:00 UTC = 08:00 JST。当日分の Zenn が全件失敗していたときだけ集め直す。
+    # ランナーが変われば IP も変わるので、IP 単位の 429 はたいてい抜けられる
+    - cron: "0 23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -32,7 +35,10 @@ jobs:
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run collect
+          # 定時実行は当日分が揃っていれば何もしない（cron の遅れで 2 本の順番が入れ替わっても同じ結果になる）。
+          # 手動実行は常に集め直す
+          COLLECT_ARGS: ${{ github.event_name == 'schedule' && '--if-needed' || '' }}
+        run: npm run collect -- $COLLECT_ARGS
 
       - name: Commit data
         if: always()

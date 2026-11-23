@@ -71,7 +71,129 @@ test("fetchZennTopic stops when next_page is null", async () => {
 
 test("fetchZennTopic throws on http errors", async () => {
   const http = stubHttp(() => new Response("", { status: 503 }));
-  await expect(fetchZennTopic("llm", 1, http)).rejects.toThrow("503");
+  await expect(fetchZennTopic("llm", 1, http)).rejects.toThrow(
+    /^HTTP 503 fetching zenn topic "llm" page 1$/,
+  );
+});
+
+const rateLimitedPage = `<!DOCTYPE html>
+<html><head><title>Access denied</title><style>body { color: red; }</style></head>
+<body><h1>Error 1015</h1>
+<p>You are   being rate limited</p></body></html>`;
+
+function rateLimited(): Response {
+  return new Response(rateLimitedPage, {
+    status: 429,
+    headers: { "retry-after": "60", "cf-ray": "a5ed34453e535a27-NRT" },
+  });
+}
+
+test("an http error keeps retry-after, cf-ray and the start of the body", async () => {
+  const http = stubHttp(rateLimited);
+  const error = await fetchZennTopic("llm", 1, http).catch((e: Error) => e);
+  expect(error).toBeInstanceOf(Error);
+  const message = (error as Error).message;
+  expect(message).toContain('HTTP 429 fetching zenn topic "llm" page 1');
+  expect(message).toContain("retry-after=60");
+  expect(message).toContain("cf-ray=a5ed34453e535a27-NRT");
+  expect(message).toContain(
+    "Access denied Error 1015 You are being rate limited",
+  );
+  expect(message).not.toContain("<");
+  expect(message).not.toContain("color: red");
+});
+
+test("a long error body is cut short", async () => {
+  const http = stubHttp(() => new Response("x".repeat(5000), { status: 500 }));
+  const error = await fetchZennTopic("llm", 1, http).catch((e: Error) => e);
+  const message = (error as Error).message;
+  expect(message).toContain("xxxxxxxxxx");
+  expect(message.length).toBeLessThan(300);
+});
+
+test("a topic still rate limited after its retry stops the remaining topics", async () => {
+  const http = stubHttp(rateLimited);
+  const { candidates, errors } = await collectZenn(
+    { ...cfg, topics: ["llm", "ai", "react"] },
+    http,
+    "2026-10-19",
+  );
+  expect(candidates).toEqual([]);
+  expect(http.urls).toEqual([
+    "https://zenn.dev/api/articles?topicname=llm&order=daily&count=48&page=1",
+    "https://zenn.dev/api/articles?topicname=llm&order=daily&count=48&page=1",
+  ]);
+  expect(errors).toEqual([
+    {
+      source: "zenn",
+      scope: "topic:llm",
+      message: expect.stringContaining("HTTP 429"),
+    },
+    {
+      source: "zenn",
+      scope: "topics",
+      message: expect.stringContaining("ai, react"),
+    },
+  ]);
+});
+
+test("a rate limit on a later topic keeps what was already fetched", async () => {
+  const http = stubHttp((url) =>
+    url.searchParams.get("topicname") === "ai"
+      ? rateLimited()
+      : new Response(fixture),
+  );
+  const { candidates, errors } = await collectZenn(
+    { ...cfg, topics: ["llm", "ai", "react"] },
+    http,
+    "2026-10-19",
+  );
+  expect(candidates.length).toBeGreaterThan(0);
+  expect(http.urls.some((u) => u.includes("topicname=react"))).toBe(false);
+  expect(errors.map((e) => e.scope)).toEqual(["topic:ai", "topics"]);
+});
+
+test("a rate limit on the last topic records only that topic", async () => {
+  const http = stubHttp(rateLimited);
+  const { errors } = await collectZenn(
+    { ...cfg, topics: ["llm"] },
+    http,
+    "2026-10-19",
+  );
+  expect(errors.map((e) => e.scope)).toEqual(["topic:llm"]);
+});
+
+test("a rate limit that clears on retry does not stop the run", async () => {
+  let first = true;
+  const http = stubHttp(() => {
+    if (first) {
+      first = false;
+      return rateLimited();
+    }
+    return new Response(fixture);
+  });
+  const { errors } = await collectZenn(
+    { ...cfg, topics: ["llm", "ai"] },
+    http,
+    "2026-10-19",
+  );
+  expect(errors).toEqual([]);
+  expect(http.urls.some((u) => u.includes("topicname=ai"))).toBe(true);
+});
+
+test("a failure other than 429 does not stop the remaining topics", async () => {
+  const http = stubHttp((url) =>
+    url.searchParams.get("topicname") === "ai"
+      ? new Response("", { status: 503 })
+      : new Response(fixture),
+  );
+  const { candidates, errors } = await collectZenn(
+    { ...cfg, topics: ["ai", "llm"] },
+    http,
+    "2026-10-19",
+  );
+  expect(errors.map((e) => e.scope)).toEqual(["topic:ai"]);
+  expect(candidates.length).toBeGreaterThan(0);
 });
 
 test("collectZenn merges the same article from two topics with topics unioned", async () => {

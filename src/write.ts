@@ -24,6 +24,14 @@ async function readJson<T>(dir: string, name: string, fallback: T): Promise<T> {
   }
 }
 
+/** docs/data/YYYY-MM-DD.json を読む。無ければ null */
+export async function readDayFile(
+  dir: string,
+  date: string,
+): Promise<DayFile | null> {
+  return readJson<DayFile | null>(dir, `${date}.json`, null);
+}
+
 /** docs/data/YYYY-MM-DD.json を上書き */
 export async function writeDayFile(dir: string, day: DayFile): Promise<void> {
   await writeJson(dir, `${day.date}.json`, day);

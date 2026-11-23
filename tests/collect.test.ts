@@ -117,3 +117,93 @@ test("rerunning on the same day does not duplicate the index date", async () => 
   expect((await readJson("index.json")).dates).toEqual(["2026-10-19"]);
   expect((await readJson("zenn-snapshot.json")).snapshots).toHaveLength(1);
 });
+
+const noNetwork: Http = {
+  sleep: async () => {},
+  fetch: async (input) => {
+    throw new Error(`should not fetch ${String(input)}`);
+  },
+};
+
+test("onlyIfNeeded collects when today's file does not exist yet", async () => {
+  const { day, exitCode, skipped } = await runCollect({
+    config,
+    http: stubHttp(),
+    token: "t",
+    now,
+    dataDir: dir,
+    onlyIfNeeded: true,
+  });
+  expect(skipped).toBe(false);
+  expect(exitCode).toBe(0);
+  expect(day.items.some((i) => i.source === "zenn")).toBe(true);
+  expect(await readJson("2026-10-19.json")).toEqual(day);
+});
+
+test("onlyIfNeeded leaves a day that already has zenn items untouched", async () => {
+  const first = await runCollect({
+    config,
+    http: stubHttp(),
+    token: "t",
+    now,
+    dataDir: dir,
+  });
+  const before = await readFile(join(dir, "2026-10-19.json"), "utf8");
+  const { day, exitCode, skipped } = await runCollect({
+    config,
+    http: noNetwork,
+    token: "t",
+    now: new Date("2026-10-18T23:10:00Z"), // 同じ JST 日の 08:10
+    dataDir: dir,
+    onlyIfNeeded: true,
+  });
+  expect(skipped).toBe(true);
+  expect(exitCode).toBe(0);
+  expect(day).toEqual(first.day);
+  expect(await readFile(join(dir, "2026-10-19.json"), "utf8")).toBe(before);
+});
+
+test("onlyIfNeeded collects again when zenn failed entirely earlier that day", async () => {
+  await runCollect({
+    config,
+    http: stubHttp({ zennStatus: 429 }),
+    token: "t",
+    now,
+    dataDir: dir,
+  });
+  const { day, exitCode, skipped } = await runCollect({
+    config,
+    http: stubHttp(),
+    token: "t",
+    now: new Date("2026-10-18T23:10:00Z"),
+    dataDir: dir,
+    onlyIfNeeded: true,
+  });
+  expect(skipped).toBe(false);
+  expect(exitCode).toBe(0);
+  expect(day.errors).toEqual([]);
+  expect(day.items.some((i) => i.source === "zenn")).toBe(true);
+  expect((await readJson("zenn-snapshot.json")).snapshots[0].date).toBe(
+    "2026-10-19",
+  );
+});
+
+test("onlyIfNeeded does not redo a day where only github failed", async () => {
+  await runCollect({
+    config,
+    http: stubHttp({ githubStatus: 500 }),
+    token: "t",
+    now,
+    dataDir: dir,
+  });
+  const { skipped, exitCode } = await runCollect({
+    config,
+    http: noNetwork,
+    token: "t",
+    now: new Date("2026-10-18T23:10:00Z"),
+    dataDir: dir,
+    onlyIfNeeded: true,
+  });
+  expect(skipped).toBe(true);
+  expect(exitCode).toBe(0);
+});
