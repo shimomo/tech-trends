@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T01:28:17.945Z",
+  "generatedAt": "2026-11-23T03:55:44.718Z",
   "items": [
     {
       "id": "github:elementalsouls/Claude-BugHunter",
@@ -26,7 +26,7 @@
         "security-tools",
         "web-security"
       ],
-      "total": 17862,
+      "total": 18100,
       "delta": 1716,
       "hot": true,
       "isNew": false,
@@ -60,12 +60,29 @@
         "web-search",
         "webscraping"
       ],
-      "total": 207058,
+      "total": 207151,
       "delta": 915,
       "hot": false,
       "isNew": false,
       "publishedAt": "2024-04-15T21:02:29Z",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API."
+    },
+    {
+      "id": "zenn:691340",
+      "source": "zenn",
+      "title": "寝てる間に自動で動くAIエージェントを誰でも作れる：10分でわかる pstack 実践ガイド",
+      "url": "https://zenn.dev/canly/articles/ca6875cd79539f",
+      "author": "haginota",
+      "emoji": "🎱",
+      "topics": [
+        "claudecode",
+        "aiエージェント"
+      ],
+      "total": 47,
+      "delta": 41,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-20T18:04:40.760+09:00"
     },
     {
       "id": "github:obra/superpowers",
@@ -83,12 +100,29 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "total": 324180,
+      "total": 324281,
       "delta": 788,
       "hot": false,
       "isNew": false,
       "publishedAt": "2025-10-09T19:45:18Z",
       "description": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "zenn:684804",
+      "source": "zenn",
+      "title": "自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス",
+      "url": "https://zenn.dev/nttdata_tech/articles/9562962cc181a1",
+      "author": "Kazuma Yoshimoto | 吉本 和真",
+      "emoji": "🧭",
+      "topics": [
+        "claudecode",
+        "aiエージェント"
+      ],
+      "total": 172,
+      "delta": 30,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-19T16:28:27.885+09:00"
     },
     {
       "id": "github:XiaoYouChR/Ghost-Downloader-3",
@@ -117,12 +151,29 @@
         "software",
         "streaming"
       ],
-      "total": 15171,
+      "total": 15372,
       "delta": 701,
       "hot": false,
       "isNew": false,
       "publishedAt": "2023-08-16T04:23:44Z",
       "description": "The only downloader you need. 下载器的集大成者。"
+    },
+    {
+      "id": "zenn:691456",
+      "source": "zenn",
+      "title": "【TLA+】AIにテストケースを書かせるな。ルールを書け",
+      "url": "https://zenn.dev/karamage/articles/73027ee36796dc",
+      "author": "karamage",
+      "emoji": "📝",
+      "topics": [
+        "ai",
+        "claudecode"
+      ],
+      "total": 53,
+      "delta": 27,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-21T11:12:39.343+09:00"
     },
     {
       "id": "github:HKUDS/CLI-Anything",
@@ -131,12 +182,29 @@
       "url": "https://github.com/HKUDS/CLI-Anything",
       "language": "Python",
       "topics": [],
-      "total": 62792,
+      "total": 62901,
       "delta": 699,
       "hot": false,
       "isNew": false,
       "publishedAt": "2026-03-08T13:52:57Z",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+    },
+    {
+      "id": "zenn:692255",
+      "source": "zenn",
+      "title": "Orca Botsが良さそう、何ができるのか",
+      "url": "https://zenn.dev/kg_motors_mibot/articles/orca-bot-intro",
+      "author": "Sota Nakamura",
+      "emoji": "🐋",
+      "topics": [
+        "claudecode",
+        "aiエージェント"
+      ],
+      "total": 34,
+      "delta": 26,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-22T00:14:13.700+09:00"
     },
     {
       "id": "github:mvanhorn/last30days-skill",
@@ -166,12 +234,28 @@
         "twitter",
         "youtube"
       ],
-      "total": 72737,
+      "total": 72854,
       "delta": 668,
       "hot": false,
       "isNew": false,
       "publishedAt": "2026-01-23T20:37:37Z",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+    },
+    {
+      "id": "zenn:686613",
+      "source": "zenn",
+      "title": "毎月6,000 AI Agentsを捌くためにキーボードを捨てた話",
+      "url": "https://zenn.dev/andoshin11/articles/ba68b39ef9a8ce",
+      "author": "Andy",
+      "emoji": "🏭",
+      "topics": [
+        "claude"
+      ],
+      "total": 198,
+      "delta": 10,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-17T12:13:36.510+09:00"
     },
     {
       "id": "github:affaan-m/ECC",
@@ -189,12 +273,29 @@
         "mcp",
         "productivity"
       ],
-      "total": 309040,
+      "total": 309088,
       "delta": 649,
       "hot": false,
       "isNew": false,
       "publishedAt": "2026-01-18T00:51:51Z",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "id": "zenn:689539",
+      "source": "zenn",
+      "title": "おい、 Mutation Test をやれ。テスト品質を、測るために",
+      "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
+      "author": "mizchi",
+      "emoji": "🧬",
+      "topics": [
+        "typescript",
+        "javascript"
+      ],
+      "total": 465,
+      "delta": 9,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-17T18:53:47.264+09:00"
     },
     {
       "id": "github:zhouxiaoka/autoclip",
@@ -219,12 +320,31 @@
         "xiaohongshu",
         "youtube-shorts"
       ],
-      "total": 13465,
+      "total": 13630,
       "delta": 641,
       "hot": false,
       "isNew": false,
       "publishedAt": "2025-07-08T04:51:15Z",
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing."
+    },
+    {
+      "id": "zenn:679613",
+      "source": "zenn",
+      "title": "ローカルLLM入門",
+      "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+      "author": "tesla",
+      "emoji": "🎓",
+      "topics": [
+        "llm",
+        "ai",
+        "openai",
+        "claude"
+      ],
+      "total": 85,
+      "delta": 9,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-17T16:17:24.717+09:00"
     },
     {
       "id": "github:mjmirza/app-store-compliance",
@@ -254,12 +374,30 @@
         "pre-submission-checklist",
         "privacy-manifest"
       ],
-      "total": 4000,
+      "total": 4108,
       "delta": 621,
       "hot": false,
       "isNew": false,
       "publishedAt": "2026-06-06T11:29:45Z",
       "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents."
+    },
+    {
+      "id": "zenn:688958",
+      "source": "zenn",
+      "title": "Claude Desktop 開発のすゝめ",
+      "url": "https://zenn.dev/peoplex_blog/articles/vscode-to-claude-desktop",
+      "author": "Aki 🚀 Product Engineer @ PeopleX",
+      "emoji": "🖥️",
+      "topics": [
+        "ai",
+        "claude",
+        "claudecode"
+      ],
+      "total": 85,
+      "delta": 9,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-17T12:41:36.887+09:00"
     },
     {
       "id": "github:DietrichGebert/ponytail",
@@ -279,144 +417,45 @@
         "prompt-engineering",
         "yagni"
       ],
-      "total": 196902,
+      "total": 196986,
       "delta": 591,
       "hot": false,
       "isNew": false,
       "publishedAt": "2026-06-12T00:52:37Z",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    },
+    {
+      "id": "zenn:690720",
+      "source": "zenn",
+      "title": "AIが爆速で開発する時代の、自動テストとの向き合い方",
+      "url": "https://zenn.dev/daiaoki/articles/webterm-ai-era-testing",
+      "author": "Dai",
+      "emoji": "🧪",
+      "topics": [
+        "claudecode"
+      ],
+      "total": 20,
+      "delta": 6,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-19T16:11:24.975+09:00"
+    },
+    {
+      "id": "zenn:681195",
+      "source": "zenn",
+      "title": "CSS では書きにくいアニメーションを Web Animations API で書く",
+      "url": "https://zenn.dev/omu_tryangle/articles/b5817393592229",
+      "author": "hyakutake",
+      "emoji": "💫",
+      "topics": [
+        "javascript"
+      ],
+      "total": 52,
+      "delta": 5,
+      "hot": false,
+      "isNew": false,
+      "publishedAt": "2026-11-16T15:35:01.946+09:00"
     }
   ],
-  "errors": [
-    {
-      "source": "zenn",
-      "scope": "topic:react",
-      "message": "HTTP 429 fetching zenn topic \"react\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:nextjs",
-      "message": "HTTP 429 fetching zenn topic \"nextjs\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:typescript",
-      "message": "HTTP 429 fetching zenn topic \"typescript\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:javascript",
-      "message": "HTTP 429 fetching zenn topic \"javascript\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:vue",
-      "message": "HTTP 429 fetching zenn topic \"vue\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:nuxt",
-      "message": "HTTP 429 fetching zenn topic \"nuxt\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:svelte",
-      "message": "HTTP 429 fetching zenn topic \"svelte\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:astro",
-      "message": "HTTP 429 fetching zenn topic \"astro\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:tailwindcss",
-      "message": "HTTP 429 fetching zenn topic \"tailwindcss\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:nodejs",
-      "message": "HTTP 429 fetching zenn topic \"nodejs\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:deno",
-      "message": "HTTP 429 fetching zenn topic \"deno\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:bun",
-      "message": "HTTP 429 fetching zenn topic \"bun\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:frontend",
-      "message": "HTTP 429 fetching zenn topic \"frontend\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:web",
-      "message": "HTTP 429 fetching zenn topic \"web\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:llm",
-      "message": "HTTP 429 fetching zenn topic \"llm\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:ai",
-      "message": "HTTP 429 fetching zenn topic \"ai\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:生成ai",
-      "message": "HTTP 429 fetching zenn topic \"生成ai\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:openai",
-      "message": "HTTP 429 fetching zenn topic \"openai\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:chatgpt",
-      "message": "HTTP 429 fetching zenn topic \"chatgpt\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:claude",
-      "message": "HTTP 429 fetching zenn topic \"claude\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:claudecode",
-      "message": "HTTP 429 fetching zenn topic \"claudecode\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:gemini",
-      "message": "HTTP 429 fetching zenn topic \"gemini\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:rag",
-      "message": "HTTP 429 fetching zenn topic \"rag\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:aiエージェント",
-      "message": "HTTP 429 fetching zenn topic \"aiエージェント\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:mcp",
-      "message": "HTTP 429 fetching zenn topic \"mcp\" page 1"
-    },
-    {
-      "source": "zenn",
-      "scope": "topic:python",
-      "message": "HTTP 429 fetching zenn topic \"python\" page 1"
-    }
-  ]
+  "errors": []
 }
